@@ -1,0 +1,24 @@
+[MCDR] [2024-04-30 20:03:25] [MainThread/INFO]: MCDReforged正于Python 3.10.12环境中运行
+[MCDR] [2024-04-30 20:03:25] [TaskExecutor/INFO]: 刷新所有插件中
+[MCDR] [2024-04-30 20:03:25] [TaskExecutor/INFO]: 插件 daycount_nbt@2.2.1 已加载
+[MCDR] [2024-04-30 20:03:25] [TaskExecutor/INFO]: 插件 here@1.2.3 已加载
+[MCDR] [2024-04-30 20:03:25] [TaskExecutor/INFO]: 插件 joinmotd_reforged@1.0.0 已加载
+[MCDR] [2024-04-30 20:03:25] [TaskExecutor/INFO]: 插件 minecraft_command_register@1.7.3 已加载
+[MCDR] [2024-04-30 20:03:25] [TaskExecutor/INFO]: 插件 mirror_server_reforged@1.0.7 已加载
+[MCDR] [2024-04-30 20:03:25] [TaskExecutor/INFO] [daycount_nbt]: 配置文件已加载
+[MCDR] [2024-04-30 20:03:25] [TaskExecutor/INFO] [here]: 配置文件已加载
+[MCDR] [2024-04-30 20:03:25] [TaskExecutor/INFO] [joinmotd_reforged]: 配置文件已加载
+[MCDR] [2024-04-30 20:03:25] [TaskExecutor/INFO] [joinmotd_reforged]: ==========================================================
+[MCDR] [2024-04-30 20:03:25] [TaskExecutor/INFO] [joinmotd_reforged]: joinMOTD-Reforged 已加载！
+[MCDR] [2024-04-30 20:03:25] [TaskExecutor/INFO] [joinmotd_reforged]: 版本：1.0.0 (B93F2EC)（构建于2023年12月17日）
+[MCDR] [2024-04-30 20:03:25] [TaskExecutor/INFO] [joinmotd_reforged]: ==========================================================
+[MCDR] [2024-04-30 20:03:25] [TaskExecutor/INFO]: 共加载: §75§r 个插件; 已加载插件数: §77§r
+[MCDR] [2024-04-30 20:03:25] [MainThread/INFO]: 正在启动服务端，启动参数为 "java -jar mohist-server.jar -javaagent:authlib-injector.jar=https://littleskin.cn/api/yggdrasil"
+[MCDR] [2024-04-30 20:03:25] [MainThread/INFO]: 服务端正在以 PID 64098 运行中
+[MCDR] [2024-04-30 20:04:21] [TaskExecutor/INFO]: rcon 已连接
+[MCDR] [2024-04-30 20:23:35] [TaskExecutor/INFO]: rcon 已断开连接
+[MCDR] [2024-04-30 20:24:27] [MainThread/INFO]: 服务端进程返回代码: 0
+[MCDR] [2024-04-30 20:24:27] [MainThread/INFO]: 服务端已关闭
+[MCDR] [2024-04-30 20:24:27] [MainThread/INFO]: 正在关闭 MCDR
+[MCDR] [2024-04-30 20:24:27] [MainThread/INFO]: 正在关闭高级控制台
+[MCDR] [2024-04-30 20:24:27] [MainThread/INFO]: bye

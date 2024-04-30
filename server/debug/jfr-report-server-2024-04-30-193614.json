@@ -1,0 +1,124 @@
+{
+  "startedEpoch": 1714476974949,
+  "endedEpoch": 1714476976575,
+  "durationMs": 1625,
+  "heap": {
+    "allocationRateBytesPerSecond": 5.24288E8,
+    "gcCount": 2,
+    "gcOverHeadPercent": 0.13046154,
+    "gcTotalDurationMs": 212
+  },
+  "cpuPercent": {
+    "jvm": {
+      "min": 0.0,
+      "average": 0.0,
+      "max": 0.0
+    },
+    "userJvm": {
+      "min": 0.0,
+      "average": 0.0,
+      "max": 0.0
+    },
+    "system": {
+      "min": 1.0,
+      "average": 1.0,
+      "max": 1.0
+    }
+  },
+  "network": {
+    "sent": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    },
+    "received": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    }
+  },
+  "fileIO": {
+    "write": {
+      "totalBytes": 136586,
+      "count": 480,
+      "bytesPerSecond": 136586.0,
+      "countPerSecond": 480.0,
+      "topContributors": [
+        {
+          "path": "logs/debug.log",
+          "totalBytes": 112200
+        },
+        {
+          "path": "logs/latest.log",
+          "totalBytes": 10655
+        }
+      ]
+    },
+    "read": {
+      "totalBytes": 1565224,
+      "count": 1234,
+      "bytesPerSecond": 1565224.0,
+      "countPerSecond": 1234.0,
+      "topContributors": [
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/libraries/net/minecraftforge/forge/1.20.1-47.2.23/forge-1.20.1-47.2.23-server.jar",
+          "totalBytes": 492368
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar",
+          "totalBytes": 195662
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/libraries/net/minecraftforge/forge/1.20.1-47.2.23/forge-1.20.1-47.2.23-universal.jar",
+          "totalBytes": 176739
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar",
+          "totalBytes": 169346
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar",
+          "totalBytes": 125324
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/libraries/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar",
+          "totalBytes": 68216
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/mods/.connector/immersive-portals-3.3.9-mc1.20.1-fabric$imm_ptl_core-3.3.9_mapped_srg_1.20.1.jar",
+          "totalBytes": 54643
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/mods/valkyrienskies-120-2.3.0-beta.5.jar",
+          "totalBytes": 45373
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/libraries/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar",
+          "totalBytes": 29587
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/mods/[镭] radium-mc1.20.1-0.12.3+git.50c5c33.jar",
+          "totalBytes": 28629
+        }
+      ]
+    }
+  },
+  "serverTick": {
+    "minMs": 0.0,
+    "averageMs": 0.0,
+    "maxMs": 0.0,
+    "p99": 0.0,
+    "p90": 0.0,
+    "p75": 0.0,
+    "p50": 0.0
+  },
+  "threadAllocation": [],
+  "chunkGen": {
+    "durationNanosTotal": 0.0,
+    "status": []
+  }
+}

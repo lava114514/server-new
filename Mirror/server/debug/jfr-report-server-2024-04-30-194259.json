@@ -1,0 +1,132 @@
+{
+  "startedEpoch": 1714477379332,
+  "endedEpoch": 1714477384061,
+  "durationMs": 4728,
+  "heap": {
+    "allocationRateBytesPerSecond": 3.79584512E8,
+    "gcCount": 7,
+    "gcOverHeadPercent": 0.046531305,
+    "gcTotalDurationMs": 220
+  },
+  "cpuPercent": {
+    "jvm": {
+      "min": 0.0,
+      "average": 0.004383937921375036,
+      "max": 0.00874453503638506
+    },
+    "userJvm": {
+      "min": 0.0,
+      "average": 0.30734318122267723,
+      "max": 0.558768093585968
+    },
+    "system": {
+      "min": 0.0,
+      "average": 0.3258054442703724,
+      "max": 0.5732243657112122
+    }
+  },
+  "network": {
+    "sent": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    },
+    "received": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    }
+  },
+  "fileIO": {
+    "write": {
+      "totalBytes": 361128,
+      "count": 1592,
+      "bytesPerSecond": 90282.0,
+      "countPerSecond": 398.0,
+      "topContributors": [
+        {
+          "path": "logs/debug.log",
+          "totalBytes": 294258
+        },
+        {
+          "path": "./crash-reports/crash-2024-04-30_19.43.03-fml.txt",
+          "totalBytes": 24587
+        },
+        {
+          "path": "logs/latest.log",
+          "totalBytes": 8405
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/fabricloader.log",
+          "totalBytes": 522
+        }
+      ]
+    },
+    "read": {
+      "totalBytes": 10167746,
+      "count": 9740,
+      "bytesPerSecond": 2541936.5,
+      "countPerSecond": 2435.0,
+      "topContributors": [
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar",
+          "totalBytes": 3821776
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/libraries/net/minecraftforge/forge/1.20.1-47.2.23/forge-1.20.1-47.2.23-server.jar",
+          "totalBytes": 3497921
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar",
+          "totalBytes": 640962
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/libraries/net/minecraftforge/forge/1.20.1-47.2.23/forge-1.20.1-47.2.23-universal.jar",
+          "totalBytes": 577908
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/libraries/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar",
+          "totalBytes": 311119
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/libraries/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar",
+          "totalBytes": 234510
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-extra.jar",
+          "totalBytes": 232947
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/libraries/com/mohistmc/librariesvault/1.20.1/librariesvault-1.20.1.jar",
+          "totalBytes": 179399
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/mods/create-1.20.1-0.5.1.f.jar",
+          "totalBytes": 79223
+        },
+        {
+          "path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/mods/valkyrienskies-120-2.3.0-beta.5.jar",
+          "totalBytes": 69974
+        }
+      ]
+    }
+  },
+  "serverTick": {
+    "minMs": 0.0,
+    "averageMs": 0.0,
+    "maxMs": 0.0,
+    "p99": 0.0,
+    "p90": 0.0,
+    "p75": 0.0,
+    "p50": 0.0
+  },
+  "threadAllocation": [],
+  "chunkGen": {
+    "durationNanosTotal": 0.0,
+    "status": []
+  }
+}

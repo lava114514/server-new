@@ -1,0 +1,78 @@
+worlds:
+  world:
+    worldborder: 5.9999968E7
+    seed: -6331115300630607561
+    environment: NORMAL
+    name: world
+    info: -/-
+    difficulty: EASY
+    mohist: false
+    keepspawninmemory: true
+  DIM1:
+    worldborder: 5.9999968E7
+  DIM-1:
+    worldborder: 5.9999968E7
+  moon_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: beyond_earth
+  glacio:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: beyond_earth
+  mercury:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: beyond_earth
+  phobos:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: beyond_earth
+  venus:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: beyond_earth
+  moon:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: beyond_earth
+  mercury_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: beyond_earth
+  deimos:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: beyond_earth
+  mars:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: beyond_earth
+  venus_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: beyond_earth
+  phobos_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: beyond_earth
+  twilight_forest:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: twilightforest
+  deimos_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: beyond_earth
+  earth_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: beyond_earth
+  glacio_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: beyond_earth
+  mars_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: beyond_earth

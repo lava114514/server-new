@@ -1,0 +1,14 @@
+{
+  "world":[
+    "world"
+  ],
+  "command":"mcdreforged",
+  "rcon":{
+    "enable":true,
+    "host":"localhost",
+    "port":25576,
+    "password":"JiejieWASD"
+  },
+  "source":"./server",
+  "target":"./Mirror/server"
+}

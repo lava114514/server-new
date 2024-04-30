@@ -1,0 +1,30 @@
+{
+  "enabled": false,
+  "world_name": "World",
+  "server_name": "Server",
+  "chunk_recording_path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/recordings/chunks",
+  "player_recording_path": "/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/recordings/players",
+  "max_file_size": "0GB",
+  "restart_after_max_file_size": false,
+  "max_duration": "0s",
+  "restart_after_max_duration": false,
+  "recover_unsaved_replays": true,
+  "include_compressed_in_status": true,
+  "fixed_daylight_cycle": -1,
+  "pause_unloaded_chunks": false,
+  "pause_notify_players": true,
+  "notify_admins_of_status": true,
+  "fix_carpet_bot_view_distance": false,
+  "ignore_sound_packets": false,
+  "ignore_light_packets": true,
+  "ignore_chat_packets": false,
+  "ignore_scoreboard_packets": false,
+  "optimize_explosion_packets": true,
+  "optimize_entity_packets": false,
+  "record_voice_chat": false,
+  "player_predicate": {
+    "type": "none"
+  },
+  "chunks": [
+  ]
+}

@@ -1,0 +1,4 @@
+[19:42:55] [WARN] [FabricLoader/Resolution]: Mod resolution failed
+[19:42:55] [INFO] [FabricLoader/Resolution]: Immediate reason: [HARD_DEP_NO_CANDIDATE immersive_portals 4.1.4 {depends minecraft @ [1.20.2]}, ROOT_FORCELOAD_SINGLE immersive_portals 4.1.4]
+[19:42:55] [INFO] [FabricLoader/Resolution]: Reason: [HARD_DEP immersive_portals 4.1.4 {depends minecraft @ [1.20.2]}]
+[19:42:55] [INFO] [FabricLoader/Resolution]: Fix: add [], remove [], replace [[immersive_portals 4.1.4] -> add:immersive_portals 1 ([(-∞,∞)])]
