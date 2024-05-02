@@ -1,0 +1,19 @@
+{
+    "server_name": "Minecraft Server",
+    "current_server_name": "Mirror Server",
+    "server_list": [
+        {
+            "name": "survival",
+            "description": "Survival Server"
+        },
+        {
+            "name": "mirror",
+            "description": "Mirror Server"
+        }
+    ],
+    "permission": {
+        "motd": 0,
+        "server": 0,
+        "reload": 3
+    }
+}

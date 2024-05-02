@@ -7,10 +7,6 @@
             "description": "Survival Server"
         },
         {
-            "name": "creative",
-            "description": "Creative Server"
-        },
-        {
             "name": "mirror",
             "description": "Mirror Server"
         }

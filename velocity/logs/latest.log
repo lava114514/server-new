@@ -1,0 +1,142 @@
+[15:40:35] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.3.0-SNAPSHOT (git-368d1a7c-b388)...
+[15:40:35] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[15:40:35] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.0.x (Linux x86_64) ciphers
+[15:40:35] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[15:40:35] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin ambassador 1.4.4 by adde0109
+[15:40:35] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
+[15:40:35] [Velocity Async Event Executor - #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by org.adde0109.ambassador.Ambassador.inject(Ambassador.java:130)
+[15:40:35] [Velocity Async Event Executor - #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The backend channel initializer has been replaced by org.adde0109.ambassador.Ambassador.inject(Ambassador.java:133)
+[15:40:35] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0%0]:25577
+[15:40:35] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (0.52s)!
+[15:43:00] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Enderlava1234 (/127.0.0.1:40700) has connected
+[15:43:00] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Enderlava1234 -> survival has connected
+[15:43:16] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Enderlava1234 -> mirror has connected
+[15:43:16] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Enderlava1234 (/127.0.0.1:40700) has disconnected: Please reconnect
+[15:43:16] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Enderlava1234 -> mirror has disconnected
+[15:43:16] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Enderlava1234 -> survival has disconnected
+[15:43:25] [Netty epoll Worker #14/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Enderlava1234 (/127.0.0.1:34106) has connected
+[15:43:25] [Netty epoll Worker #14/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Enderlava1234 -> mirror has connected
+[15:44:44] [Netty epoll Worker #14/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Enderlava1234 (/127.0.0.1:34106) has disconnected
+[15:44:44] [Netty epoll Worker #14/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Enderlava1234 -> mirror has disconnected
+[15:44:54] [Netty epoll Worker #26/ERROR] [com.velocitypowered.proxy.connection.client.InitialLoginSessionHandler]: Unable to authenticate player
+java.util.concurrent.CompletionException: java.net.ConnectException: 网络不可达
+	at java.base/java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:368) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1189) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2309) ~[?:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:453) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:449) ~[java.net.http:?]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340) ~[?:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:439) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:341) ~[java.net.http:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:416) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.net.ConnectException: 网络不可达
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:378) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:128) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:93) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:343) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:475) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:380) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:372) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:408) ~[java.net.http:?]
+	... 17 more
+Caused by: java.net.SocketException: 网络不可达
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:579) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:586) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853) ~[?:?]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183) ~[java.net.http:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569) ~[?:?]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:378) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:128) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:93) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:343) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:475) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:380) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:372) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:408) ~[java.net.http:?]
+	... 17 more
+[15:44:54] [Netty epoll Worker #26/INFO] [com.velocitypowered.proxy.connection.client.InitialInboundConnection]: [initial connection] /127.0.0.1:60138 has disconnected: 
+[15:45:00] [Netty epoll Worker #29/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Enderlava1234 (/127.0.0.1:53350) has connected
+[15:45:00] [Netty epoll Worker #29/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Enderlava1234 -> survival has connected
+[15:45:46] [Netty epoll Worker #29/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Enderlava1234 (/127.0.0.1:53350) has disconnected: 您的连接发生内部错误。
+[15:45:46] [Netty epoll Worker #29/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Enderlava1234 (/127.0.0.1:53350): read timed out
+[15:45:46] [Netty epoll Worker #29/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Enderlava1234 -> survival has disconnected
+[15:45:55] [Netty epoll Worker #9/ERROR] [com.velocitypowered.proxy.connection.client.InitialLoginSessionHandler]: Unable to authenticate player
+java.util.concurrent.CompletionException: java.net.ConnectException: 网络不可达
+	at java.base/java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:368) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1189) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2309) ~[?:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:453) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:449) ~[java.net.http:?]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340) ~[?:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:439) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:341) ~[java.net.http:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:413) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.net.ConnectException: 网络不可达
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:378) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:128) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:93) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:343) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:475) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:380) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:372) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:408) ~[java.net.http:?]
+	... 17 more
+Caused by: java.net.SocketException: 网络不可达
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:579) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:586) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853) ~[?:?]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183) ~[java.net.http:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569) ~[?:?]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:378) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:128) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:93) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:343) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:475) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:380) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:372) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:408) ~[java.net.http:?]
+	... 17 more
+[15:45:55] [Netty epoll Worker #9/INFO] [com.velocitypowered.proxy.connection.client.InitialInboundConnection]: [initial connection] /127.0.0.1:38526 has disconnected: 
+[15:47:15] [Netty epoll Worker #21/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Enderlava1234 (/127.0.0.1:58482) has connected
+[15:47:15] [Netty epoll Worker #21/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Enderlava1234 -> survival has connected
+[15:48:25] [Netty epoll Worker #21/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Enderlava1234 (/127.0.0.1:58482) has disconnected: 您的连接发生内部错误。
+[15:48:27] [Netty epoll Worker #21/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Enderlava1234 (/127.0.0.1:58482): read timed out
+[15:48:28] [Netty epoll Worker #21/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Enderlava1234 -> survival has disconnected
+[15:49:37] [Thread-2/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
+[15:49:37] [Thread-2/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25577

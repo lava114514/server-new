@@ -1,6 +1,6 @@
 Applying: 
   Clean:     libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar
-  Output:    /media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/libraries/net/minecraftforge/forge/1.20.1-47.2.23/forge-1.20.1-47.2.23-server.jar
+  Output:    /media/jaden/Windows-SSD/Users/26973/Desktop/server-new/Mirror/server/libraries/net/minecraftforge/forge/1.20.1-47.2.30/forge-1.20.1-47.2.30-server.jar
   KeepData:  false
   Unpatched: false
   Pack200:   false
@@ -1844,6 +1844,8 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: 13b0d47c Exists: true
   Reading patch net.minecraft.world.entity.ai.Brain.binpatch
     Checksum: c9f8a383 Exists: true
+  Reading patch net.minecraft.world.entity.ai.attributes.AttributeMap.binpatch
+    Checksum: b03f52a4 Exists: true
   Reading patch net.minecraft.world.entity.ai.attributes.AttributeSupplier$Builder.binpatch
     Checksum: 51a5e06d Exists: true
   Reading patch net.minecraft.world.entity.ai.attributes.AttributeSupplier.binpatch
@@ -3502,6 +3504,8 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: 6b1b903d Exists: true
   Reading patch net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity$1.binpatch
     Checksum: 62c64299 Exists: true
+  Reading patch net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity$2.binpatch
+    Checksum: 0 Exists: false
   Reading patch net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity.binpatch
     Checksum: 447f2ba7 Exists: true
   Reading patch net.minecraft.world.level.block.entity.BannerBlockEntity.binpatch
@@ -3532,6 +3536,8 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: 536eaa33 Exists: true
   Reading patch net.minecraft.world.level.block.entity.BrewingStandBlockEntity$1.binpatch
     Checksum: 47ec1d80 Exists: true
+  Reading patch net.minecraft.world.level.block.entity.BrewingStandBlockEntity$2.binpatch
+    Checksum: 0 Exists: false
   Reading patch net.minecraft.world.level.block.entity.BrewingStandBlockEntity.binpatch
     Checksum: be9a5a75 Exists: true
   Reading patch net.minecraft.world.level.block.entity.BrushableBlockEntity.binpatch
@@ -4455,6 +4461,7 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/world/entity/ai/Brain$MemoryValue 1/1
   Patching net/minecraft/world/entity/ai/Brain$Provider 1/1
   Patching net/minecraft/world/entity/ai/Brain 1/1
+  Patching net/minecraft/world/entity/ai/attributes/AttributeMap 1/1
   Patching net/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder 1/1
   Patching net/minecraft/world/entity/ai/attributes/AttributeSupplier 1/1
   Patching net/minecraft/world/entity/ai/attributes/Attributes 1/1
@@ -5654,6 +5661,7 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/client/server/LanServerDetection$LanServerDetector 1/1
   Patching net/minecraft/client/renderer/FogRenderer$BlindnessFogFunction 1/1
   Patching net/minecraft/client/multiplayer/ServerData 1/1
+  Patching net/minecraft/world/level/block/entity/AbstractFurnaceBlockEntity$2 1/1
   Patching net/minecraft/client/renderer/block/model/ItemModelGenerator$1 1/1
   Patching net/minecraft/client/renderer/ItemInHandRenderer$1 1/1
   Patching net/minecraft/client/renderer/entity/ItemFrameRenderer 1/1
@@ -5757,6 +5765,7 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/client/renderer/RenderType$CompositeState 1/1
   Patching net/minecraft/client/resources/model/ModelBakery$ModelGroupKey 1/1
   Patching net/minecraft/client/renderer/entity/layers/HumanoidArmorLayer$1 1/1
+  Patching net/minecraft/world/level/block/entity/BrewingStandBlockEntity$2 1/1
   Patching net/minecraft/client/renderer/chunk/ChunkRenderDispatcher$RenderChunk 1/1
   Patching net/minecraft/client/gui/components/BossHealthOverlay$1 1/1
   Patching net/minecraft/client/renderer/ItemBlockRenderTypes 1/1
@@ -5835,11 +5844,3 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/client/player/RemotePlayer 1/1
   Patching net/minecraft/client/main/Main 1/1
   Patching net/minecraft/client/renderer/chunk/ChunkRenderDispatcher$RenderChunk$ResortTransparencyTask 1/1
-  Patching net/minecraft/world/level/block/ChestBlock$DoubleInventory 1/1
-  Patching net/minecraft/client/renderer/LevelRenderer 1/1
-  Patching net/minecraft/client/gui/screens/controls/KeyBindsList 1/1
-  Patching net/minecraft/client/renderer/DimensionSpecialEffects$OverworldEffects 1/1
-  Patching net/minecraft/client/gui/components/AbstractSelectionList$TrackedList 1/1
-  Patching net/minecraft/client/renderer/SpriteCoordinateExpander 1/1
-  Patching net/minecraft/Util$3 1/1
-  Patching net/minecraft/Util$4 1/1

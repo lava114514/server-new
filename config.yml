@@ -17,7 +17,7 @@ working_directory: server
 
 
 # The console command to start the server. Examples:
-start_command: java -jar mohist-server.jar -javaagent:authlib-injector.jar=https://littleskin.cn/api/yggdrasil
+start_command: java -jar mohist-server.jar 
 
 
 # The handler to the specific way to parse the standard output text of the server and the correct command for server control

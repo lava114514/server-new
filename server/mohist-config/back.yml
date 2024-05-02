@@ -1,0 +1,10 @@
+96f3047d-92c5-389a-a54f-0f59a99c6f2a:
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 89.53941769665256
+    y: 156.0
+    z: 334.2390729665317
+    pitch: 44.307602
+    yaw: -81.46585
+  type: DEATH
