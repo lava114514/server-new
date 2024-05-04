@@ -1,0 +1,111 @@
+{
+  "render-threads-enabled": true,
+  "maps": {
+    "overworld": {
+      "update-enabled": true
+    },
+    "overworld_2": {
+      "update-enabled": true
+    },
+    "overworld_3": {
+      "update-enabled": true
+    },
+    "overworld_4": {
+      "update-enabled": true
+    },
+    "overworld_5": {
+      "update-enabled": true
+    },
+    "overworld_6": {
+      "update-enabled": true
+    },
+    "overworld_7": {
+      "update-enabled": true
+    },
+    "overworld_8": {
+      "update-enabled": true
+    },
+    "overworld_9": {
+      "update-enabled": true
+    },
+    "overworld_10": {
+      "update-enabled": true
+    },
+    "overworld_11": {
+      "update-enabled": true
+    },
+    "overworld_12": {
+      "update-enabled": true
+    },
+    "overworld_13": {
+      "update-enabled": true
+    },
+    "overworld_14": {
+      "update-enabled": true
+    },
+    "overworld_15": {
+      "update-enabled": true
+    },
+    "overworld_16": {
+      "update-enabled": true
+    },
+    "overworld_17": {
+      "update-enabled": true
+    },
+    "overworld_18": {
+      "update-enabled": true
+    },
+    "overworld_19": {
+      "update-enabled": true
+    },
+    "overworld_20": {
+      "update-enabled": true
+    },
+    "overworld_21": {
+      "update-enabled": true
+    },
+    "overworld_22": {
+      "update-enabled": true
+    },
+    "overworld_23": {
+      "update-enabled": true
+    },
+    "overworld_24": {
+      "update-enabled": true
+    },
+    "overworld_25": {
+      "update-enabled": true
+    },
+    "overworld_26": {
+      "update-enabled": true
+    },
+    "overworld_27": {
+      "update-enabled": true
+    },
+    "overworld_28": {
+      "update-enabled": true
+    },
+    "overworld_29": {
+      "update-enabled": true
+    },
+    "overworld_30": {
+      "update-enabled": true
+    },
+    "overworld_31": {
+      "update-enabled": true
+    },
+    "overworld_32": {
+      "update-enabled": true
+    },
+    "overworld_33": {
+      "update-enabled": true
+    },
+    "nether": {
+      "update-enabled": true
+    },
+    "end": {
+      "update-enabled": true
+    }
+  },
+  "hidden-players": []
+}

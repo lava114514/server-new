@@ -1,40 +1,22 @@
-[MCDR] [2024-05-02 15:40:56] [MainThread/INFO]: MCDReforged is running on Python 3.10.12 environment
-[MCDR] [2024-05-02 15:40:56] [TaskExecutor/INFO]: Refreshing all plugins
-[MCDR] [2024-05-02 15:40:56] [TaskExecutor/INFO]: Plugin daycount_nbt@2.2.1 loaded
-[MCDR] [2024-05-02 15:40:56] [TaskExecutor/INFO]: Plugin here@1.2.3 loaded
-[MCDR] [2024-05-02 15:40:56] [TaskExecutor/INFO]: Plugin joinmotd_reforged@1.0.0 loaded
-[MCDR] [2024-05-02 15:40:56] [TaskExecutor/INFO]: Plugin minecraft_command_register@1.7.3 loaded
-[MCDR] [2024-05-02 15:40:56] [TaskExecutor/INFO] [daycount_nbt]: Fail to read config file, using default config: [Errno 2] No such file or directory: 'config/daycount_nbt/config.json'
-[MCDR] [2024-05-02 15:40:56] [TaskExecutor/INFO] [here]: Fail to read config file, using default config: [Errno 2] No such file or directory: 'config/here.json'
-[MCDR] [2024-05-02 15:40:56] [TaskExecutor/INFO] [joinmotd_reforged]: Config file loaded
-[MCDR] [2024-05-02 15:40:56] [TaskExecutor/INFO] [joinmotd_reforged]: ==========================================================
-[MCDR] [2024-05-02 15:40:56] [TaskExecutor/INFO] [joinmotd_reforged]: joinMOTD-Reforged is loaded!
-[MCDR] [2024-05-02 15:40:56] [TaskExecutor/INFO] [joinmotd_reforged]: Version: 1.0.0 (B93F2EC) (Built on Sun., December 17 2023)
-[MCDR] [2024-05-02 15:40:56] [TaskExecutor/INFO] [joinmotd_reforged]: ==========================================================
-[MCDR] [2024-05-02 15:40:56] [TaskExecutor/INFO]: Loaded: §74§r plugins; Active plugin amount: §76§r
-[MCDR] [2024-05-02 15:40:56] [MainThread/INFO]: Starting the server with command "java -jar mohist-server.jar"
-[MCDR] [2024-05-02 15:40:56] [MainThread/INFO]: Server is running at PID 6797
-[MCDR] [2024-05-02 15:41:56] [HandlerDetector/WARNING]: Looks like you are not using the correct handler for the server
-[MCDR] [2024-05-02 15:41:56] [HandlerDetector/WARNING]: Currently using handler: vanilla_handler, success rate 0.0% (0/318)
-[MCDR] [2024-05-02 15:41:56] [HandlerDetector/WARNING]: Most likely capable handler: bukkit_handler, success rate 71.07% (226/318)
-[MCDR] [2024-05-02 15:41:56] [HandlerDetector/WARNING]: Most likely capable handler: arclight_handler, success rate 71.07% (226/318)
-[MCDR] [2024-05-02 15:41:56] [HandlerDetector/WARNING]: Most likely capable handler: waterfall_handler, success rate 71.07% (226/318)
-[MCDR] [2024-05-02 15:41:56] [HandlerDetector/WARNING]: Most likely capable handler: velocity_handler, success rate 71.07% (226/318)
-[MCDR] [2024-05-02 15:44:03] [TaskExecutor/INFO]: §7!!MCDR§r: Show this message
-[MCDR] [2024-05-02 15:44:03] [TaskExecutor/INFO]: §7!!MCDR checkupdate§r: Check update from Github
-[MCDR] [2024-05-02 15:44:03] [TaskExecutor/INFO]: §7!!MCDR permission§r: Show permission command help message
-[MCDR] [2024-05-02 15:44:03] [TaskExecutor/INFO]: §7!!MCDR plugin§r: Show plugin command help message
-[MCDR] [2024-05-02 15:44:03] [TaskExecutor/INFO]: §7!!MCDR preference§r: Show preference command help message
-[MCDR] [2024-05-02 15:44:03] [TaskExecutor/INFO]: §7!!MCDR reload§r: Show reload command help message
-[MCDR] [2024-05-02 15:44:03] [TaskExecutor/INFO]: §7!!MCDR server§r: Show server command help message
-[MCDR] [2024-05-02 15:44:03] [TaskExecutor/INFO]: §7!!MCDR status§r: Show MCDR status
-[MCDR] [2024-05-02 15:44:08] [TaskExecutor/INFO]: §7=======§r §6Console§r, welcome back to §b§lMinecraft Server§r! §7=======§r
-[MCDR] [2024-05-02 15:44:08] [TaskExecutor/INFO]: Currently Connected Server: §3§nMirror Server§r
-[MCDR] [2024-05-02 15:44:09] [TaskExecutor/INFO]: The server is running for §e0§r days
-[MCDR] [2024-05-02 15:44:09] [TaskExecutor/INFO]: §7-----------------§r Server List §7-----------------§r
-[MCDR] [2024-05-02 15:44:09] [TaskExecutor/INFO]: [survival] [mirror]
-[MCDR] [2024-05-02 15:51:44] [MainThread/INFO]: Server process stopped with code 0
-[MCDR] [2024-05-02 15:51:44] [MainThread/INFO]: Server stopped
-[MCDR] [2024-05-02 15:51:44] [MainThread/INFO]: Stopping MCDR
-[MCDR] [2024-05-02 15:51:44] [MainThread/INFO]: Stopping advanced console
-[MCDR] [2024-05-02 15:51:44] [MainThread/INFO]: bye
+[MCDR] [2024-05-03 10:05:22] [MainThread/INFO]: MCDReforged is running on Python 3.10.12 environment
+[MCDR] [2024-05-03 10:05:22] [TaskExecutor/INFO]: Refreshing all plugins
+[MCDR] [2024-05-03 10:05:22] [TaskExecutor/INFO]: Plugin daycount_nbt@2.2.1 loaded
+[MCDR] [2024-05-03 10:05:22] [TaskExecutor/INFO]: Plugin here@1.2.3 loaded
+[MCDR] [2024-05-03 10:05:22] [TaskExecutor/INFO]: Plugin joinmotd_reforged@1.0.0 loaded
+[MCDR] [2024-05-03 10:05:22] [TaskExecutor/INFO]: Plugin minecraft_command_register@1.7.3 loaded
+[MCDR] [2024-05-03 10:05:22] [TaskExecutor/INFO] [daycount_nbt]: Config file loaded
+[MCDR] [2024-05-03 10:05:22] [TaskExecutor/INFO] [here]: Config file loaded
+[MCDR] [2024-05-03 10:05:22] [TaskExecutor/INFO] [joinmotd_reforged]: Config file loaded
+[MCDR] [2024-05-03 10:05:22] [TaskExecutor/INFO] [joinmotd_reforged]: ==========================================================
+[MCDR] [2024-05-03 10:05:22] [TaskExecutor/INFO] [joinmotd_reforged]: joinMOTD-Reforged is loaded!
+[MCDR] [2024-05-03 10:05:22] [TaskExecutor/INFO] [joinmotd_reforged]: Version: 1.0.0 (B93F2EC) (Built on Sun., December 17 2023)
+[MCDR] [2024-05-03 10:05:22] [TaskExecutor/INFO] [joinmotd_reforged]: ==========================================================
+[MCDR] [2024-05-03 10:05:22] [TaskExecutor/INFO]: Loaded: §74§r plugins; Active plugin amount: §76§r
+[MCDR] [2024-05-03 10:05:22] [MainThread/INFO]: Starting the server with command "java -jar mohist-server.jar"
+[MCDR] [2024-05-03 10:05:22] [MainThread/INFO]: Server is running at PID 17571
+[MCDR] [2024-05-03 10:06:22] [HandlerDetector/WARNING]: Looks like you are not using the correct handler for the server
+[MCDR] [2024-05-03 10:06:22] [HandlerDetector/WARNING]: Currently using handler: vanilla_handler, success rate 0.0% (0/310)
+[MCDR] [2024-05-03 10:06:22] [HandlerDetector/WARNING]: Most likely capable handler: bukkit_handler, success rate 74.84% (232/310)
+[MCDR] [2024-05-03 10:06:22] [HandlerDetector/WARNING]: Most likely capable handler: arclight_handler, success rate 74.84% (232/310)
+[MCDR] [2024-05-03 10:06:22] [HandlerDetector/WARNING]: Most likely capable handler: waterfall_handler, success rate 74.84% (232/310)
+[MCDR] [2024-05-03 10:06:22] [HandlerDetector/WARNING]: Most likely capable handler: velocity_handler, success rate 74.84% (232/310)

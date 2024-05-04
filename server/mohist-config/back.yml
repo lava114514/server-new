@@ -8,3 +8,13 @@
     pitch: 44.307602
     yaw: -81.46585
   type: DEATH
+1e941bfc-fc5f-48b8-bdc3-232649ed032b:
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -235.31005975089988
+    y: 75.0
+    z: -98.01004419219548
+    pitch: 12.3
+    yaw: 1.2000003
+  type: DEATH

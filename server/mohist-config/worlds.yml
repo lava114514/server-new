@@ -15,47 +15,47 @@ worlds:
   moon_orbit:
     worldborder: 5.9999968E7
     ismods: true
-    modName: beyond_earth
+    modName: ad_astra
   glacio:
     worldborder: 5.9999968E7
     ismods: true
-    modName: beyond_earth
+    modName: ad_astra
   mercury:
     worldborder: 5.9999968E7
     ismods: true
-    modName: beyond_earth
+    modName: ad_astra
   phobos:
     worldborder: 5.9999968E7
     ismods: true
-    modName: beyond_earth
+    modName: adastraextra
   venus:
     worldborder: 5.9999968E7
     ismods: true
-    modName: beyond_earth
+    modName: ad_astra
   moon:
     worldborder: 5.9999968E7
     ismods: true
-    modName: beyond_earth
+    modName: ad_astra
   mercury_orbit:
     worldborder: 5.9999968E7
     ismods: true
-    modName: beyond_earth
+    modName: ad_astra
   deimos:
     worldborder: 5.9999968E7
     ismods: true
-    modName: beyond_earth
+    modName: adastraextra
   mars:
     worldborder: 5.9999968E7
     ismods: true
-    modName: beyond_earth
+    modName: ad_astra
   venus_orbit:
     worldborder: 5.9999968E7
     ismods: true
-    modName: beyond_earth
+    modName: ad_astra
   phobos_orbit:
     worldborder: 5.9999968E7
     ismods: true
-    modName: beyond_earth
+    modName: adastraextra
   twilight_forest:
     worldborder: 5.9999968E7
     ismods: true
@@ -63,16 +63,80 @@ worlds:
   deimos_orbit:
     worldborder: 5.9999968E7
     ismods: true
-    modName: beyond_earth
+    modName: adastraextra
   earth_orbit:
     worldborder: 5.9999968E7
     ismods: true
-    modName: beyond_earth
+    modName: ad_astra
   glacio_orbit:
     worldborder: 5.9999968E7
     ismods: true
-    modName: beyond_earth
+    modName: ad_astra
   mars_orbit:
     worldborder: 5.9999968E7
     ismods: true
-    modName: beyond_earth
+    modName: ad_astra
+  adrastea_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: adastraextra
+  saturn:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: adastraextra
+  saturn_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: adastraextra
+  uranus:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: adastraextra
+  neptune_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: adastraextra
+  adrastea:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: adastraextra
+  amalthea_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: adastraextra
+  jupiter_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: adastraextra
+  metis_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: adastraextra
+  metis:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: adastraextra
+  jupiter:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: adastraextra
+  amalthea:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: adastraextra
+  neptune:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: adastraextra
+  uranus_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: adastraextra
+  thebe:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: adastraextra
+  thebe_orbit:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: adastraextra
