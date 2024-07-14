@@ -21,6 +21,7 @@
   "minecraft:energy_storage": null,
   "minecraft:progress": null,
   "jade:object_name": null,
+  "gravestone:grave": null,
   "minecraft:brewing_stand": null,
   "minecraft:beehive": null,
   "minecraft:command_block": null,
@@ -40,5 +41,6 @@
   "minecraft:fluid_storage": null,
   "minecraft:energy_storage": null,
   "minecraft:progress": null,
-  "jade:object_name": null
+  "jade:object_name": null,
+  "gravestone:grave": null
 }

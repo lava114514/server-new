@@ -1,12 +1,47 @@
-[11:40:45] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.3.0-SNAPSHOT (git-368d1a7c-b388)...
-[11:40:45] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[11:40:45] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.0.x (Linux x86_64) ciphers
-[11:40:46] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[11:40:46] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin ambassador 1.4.4 by adde0109
-[11:40:46] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
-[11:40:46] [Velocity Async Event Executor - #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by org.adde0109.ambassador.Ambassador.inject(Ambassador.java:130)
-[11:40:46] [Velocity Async Event Executor - #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The backend channel initializer has been replaced by org.adde0109.ambassador.Ambassador.inject(Ambassador.java:133)
-[11:40:46] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0%0]:25577
-[11:40:46] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (0.52s)!
-[11:47:47] [Thread-2/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
-[11:47:47] [Thread-2/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25577
+[16:11:21] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.3.0-SNAPSHOT (git-368d1a7c-b388)...
+[16:11:21] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[16:11:21] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
+[16:11:21] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[16:11:22] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin ambassador 1.4.4 by adde0109
+[16:11:22] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
+[16:11:22] [Velocity Async Event Executor - #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by org.adde0109.ambassador.Ambassador.inject(Ambassador.java:130)
+[16:11:22] [Velocity Async Event Executor - #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The backend channel initializer has been replaced by org.adde0109.ambassador.Ambassador.inject(Ambassador.java:133)
+[16:11:22] [Netty NIO Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25577
+[16:11:22] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (1.82s)!
+[16:14:55] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] StarterLava (/192.168.3.6:56604) has connected
+[16:14:55] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] StarterLava -> survival has connected
+[16:17:01] [Netty NIO Worker #13/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Enderlava1234 (/[0:0:0:0:0:0:0:1]:54546) has connected
+[16:17:01] [Netty NIO Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Enderlava1234 -> survival has connected
+[18:28:05] [Netty NIO Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Enderlava1234 (/[0:0:0:0:0:0:0:1]:54546) has disconnected
+[18:28:05] [Netty NIO Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Enderlava1234 -> survival has disconnected
+[18:28:45] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] StarterLava (/192.168.3.6:56604) has disconnected
+[18:28:45] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] StarterLava -> survival has disconnected
+[18:29:47] [Netty NIO Worker #25/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Enderlava1234 (/[0:0:0:0:0:0:0:1]:57089) has connected
+[18:29:47] [Netty NIO Worker #25/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Enderlava1234 -> survival has connected
+[18:29:47] [Netty NIO Worker #25/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Enderlava1234 (/[0:0:0:0:0:0:0:1]:57089) has disconnected
+[18:29:47] [Netty NIO Worker #25/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Enderlava1234 -> survival has disconnected
+[18:34:11] [Netty NIO Worker #35/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Enderlava1234 (/[0:0:0:0:0:0:0:1]:57180) has connected
+[18:34:11] [Netty NIO Worker #35/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Enderlava1234 -> survival has connected
+[18:41:43] [Netty NIO Worker #45/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] StarterLava (/192.168.3.6:59491) has connected
+[18:41:43] [Netty NIO Worker #45/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] StarterLava -> survival has connected
+[18:42:04] [Netty NIO Worker #45/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] StarterLava (/192.168.3.6:59491): exception encountered in com.velocitypowered.proxy.connection.client.InitialConnectSessionHandler@5441b065
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity-3.3.0-SNAPSHOT-388.jar:3.3.0-SNAPSHOT (git-368d1a7c-b388)]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+[18:42:04] [Netty NIO Worker #45/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] StarterLava (/192.168.3.6:59491) has disconnected
+[18:42:04] [Netty NIO Worker #45/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] StarterLava -> survival has disconnected
+[18:43:13] [Netty NIO Worker #35/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Enderlava1234 (/[0:0:0:0:0:0:0:1]:57180) has disconnected
+[18:43:13] [Netty NIO Worker #35/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Enderlava1234 -> survival has disconnected

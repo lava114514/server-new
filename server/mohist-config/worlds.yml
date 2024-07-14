@@ -5,7 +5,7 @@ worlds:
     environment: NORMAL
     name: world
     info: -/-
-    difficulty: EASY
+    difficulty: HARD
     mohist: false
     keepspawninmemory: true
   DIM1:

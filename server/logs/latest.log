@@ -1,703 +1,796 @@
-[11:41:02] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.30, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[11:41:03] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Azul Systems, Inc.; OS Linux arch amd64 version 6.5.0-28-generic
-[11:41:03] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
-[11:41:03] [main/INFO] [mixin-transmog]: Mixin Transmogrifier is definitely up to no good...
-[11:41:03] [main/INFO] [mixin-transmog]: crimes against java were committed
-[11:41:03] [main/INFO] [mixin-transmog]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[11:41:03] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/mods/Connector-1.0.0-beta.43+1.20.1.jar%23255%23258!/ Service=ModLauncher Env=SERVER
-[11:41:04] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 78 dependencies adding them to mods collection
-[11:41:04] [main/INFO] [dev.su5ed.sinytra.connector.locator.DependencyResolver]: Dependency resolution found 13 candidates to load
-[11:41:05] [main/INFO] [dev.su5ed.sinytra.connector.service.hacks.ModuleLayerMigrator]: Successfully made module authlib transformable
-[11:41:06] [main/INFO] [mixin]: Compatibility level set to JAVA_17
-[11:41:06] [main/INFO] [mixin]: Successfully loaded Mixin Connector [de.erdbeerbaerlp.dcintegration.forge.DCMixinConnector]
-[11:41:06] [main/INFO] [mixin]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
-[11:41:06] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments []
-[11:41:06] [main/INFO] [com.abdelaziz.saturn.common.Saturn]: Loaded Saturn config file with 4 configurable options
-[11:41:06] [main/WARN] [mixin]: Reference map 'eureka-1201-forge-refmap.json' for vs_eureka.mixins.json could not be read. If this is a development environment you can ignore this message
-[11:41:06] [main/WARN] [mixin]: Reference map 'dummmmmmy-forge-refmap.json' for dummmmmmy.mixins.json could not be read. If this is a development environment you can ignore this message
-[11:41:06] [main/INFO] [Embeddium]: Loaded configuration file for Embeddium: 164 options available, 0 override(s) found
-[11:41:06] [main/INFO] [Radium Config]: Loaded configuration file for Radium: 125 options available, 1 override(s) found
-[11:41:06] [main/WARN] [mixin]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[11:41:07] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
-[11:41:07] [main/WARN] [mixin]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
-[11:41:07] [main/WARN] [mixin]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
-[11:41:07] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[11:41:07] [main/WARN] [mixin]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[11:41:07] [main/WARN] [mixin]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
-[11:41:07] [main/WARN] [Radium Config]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[11:41:07] [main/WARN] [mixin]: Error loading class: rbasamoyai/createbigcannons/cannon_control/contraption/PitchOrientedContraptionEntity (java.lang.ClassNotFoundException: rbasamoyai.createbigcannons.cannon_control.contraption.PitchOrientedContraptionEntity)
-[11:41:07] [main/WARN] [mixin]: Error loading class: com/jamieswhiteshirt/reachentityattributes/ReachEntityAttributes (java.lang.ClassNotFoundException: com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes)
-[11:41:07] [main/WARN] [mixin]: Error loading class: blusunrize/immersiveengineering/common/gui/BlockEntityInventory (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.common.gui.BlockEntityInventory)
-[11:41:07] [main/WARN] [mixin]: Error loading class: net/dries007/tfc/world/TFCChunkGenerator (java.lang.ClassNotFoundException: net.dries007.tfc.world.TFCChunkGenerator)
-[11:41:07] [main/WARN] [mixin]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
-[11:41:07] [main/WARN] [mixin]: Error loading class: li/cil/tis3d/common/entity/InfraredPacketEntity (java.lang.ClassNotFoundException: li.cil.tis3d.common.entity.InfraredPacketEntity)
-[11:41:07] [main/WARN] [mixin]: Error loading class: me/desht/modularrouters/container/RouterMenu (java.lang.ClassNotFoundException: me.desht.modularrouters.container.RouterMenu)
-[11:41:07] [main/INFO] [memoryleakfix]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[11:41:07] [main/INFO] [memoryleakfix]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[11:41:08] [main/WARN] [mixin]: Error loading class: net/minecraft/client/particle/SimpleAnimatedParticle (java.lang.ClassNotFoundException: net.minecraft.client.particle.SimpleAnimatedParticle)
-[11:41:08] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[11:41:08] [main/INFO] [mixin]: Mixing server.MixinDedicatedServer from mixins/common/nochatreports.mixins.json into net.minecraft.server.dedicated.DedicatedServer
-[11:41:08] [main/INFO] [Smooth Boot (Reloaded)]: Smooth Boot (Reloaded) config initialized
-[11:41:09] [main/INFO] [mixin]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.network.FriendlyByteBuf
-[11:41:09] [main/INFO] [mixin]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to mda6c66c$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
-[11:41:09] [main/INFO] [mixin]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to mda6c66c$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
-[11:41:11] [main/INFO] [mixin]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.server.network.ServerGamePacketListenerImpl
-[11:41:12] [modloading-worker-0/INFO] [mixin]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.server.players.PlayerList
-[11:41:12] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[11:41:12] [modloading-worker-0/ERROR] [Embeddium]: Failed to update fingerprint
+[18:31:57] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.5, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[18:31:57] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 22.0.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[18:31:58] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[18:31:58] [main/INFO] [mixin-transmog]: Mixin Transmogrifier is definitely up to no good...
+[18:31:58] [main/INFO] [mixin-transmog]: crimes against java were committed
+[18:31:58] [main/INFO] [mixin-transmog]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[18:31:58] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/26973/OneDrive%20-%20Enderlava/Desktop/server-new/server/mods/Connector-1.0.0-beta.43+1.20.1.jar%23262%23265!/ Service=ModLauncher Env=SERVER
+[18:31:59] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 79 dependencies adding them to mods collection
+[18:32:01] [main/INFO] [dev.su5ed.sinytra.connector.locator.DependencyResolver]: Dependency resolution found 13 candidates to load
+[18:32:03] [main/INFO] [dev.su5ed.sinytra.connector.service.hacks.ModuleLayerMigrator]: Successfully made module authlib transformable
+[18:32:05] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[18:32:05] [main/INFO] [mixin]: Successfully loaded Mixin Connector [de.erdbeerbaerlp.dcintegration.forge.DCMixinConnector]
+[18:32:05] [main/INFO] [mixin]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[18:32:05] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments []
+[18:32:06] [main/INFO] [com.abdelaziz.saturn.common.Saturn]: Loaded Saturn config file with 4 configurable options
+[18:32:06] [main/WARN] [mixin]: Reference map 'dummmmmmy-forge-refmap.json' for dummmmmmy.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:32:06] [main/INFO] [Embeddium]: Loaded configuration file for Embeddium: 169 options available, 0 override(s) found
+[18:32:06] [main/INFO] [Radium Config]: Loaded configuration file for Radium: 125 options available, 1 override(s) found
+[18:32:06] [main/WARN] [mixin]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:32:06] [main/WARN] [mixin]: Reference map 'eureka-1201-forge-refmap.json' for vs_eureka.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:32:07] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[18:32:07] [main/WARN] [mixin]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[18:32:07] [main/WARN] [mixin]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
+[18:32:07] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[18:32:07] [main/WARN] [mixin]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[18:32:07] [main/WARN] [mixin]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
+[18:32:08] [main/WARN] [mixin]: Error loading class: com/copycatsplus/copycats/content/copycat/slab/CopycatSlabBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock)
+[18:32:08] [main/WARN] [mixin]: @Mixin target com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin from mod create_connected
+[18:32:08] [main/WARN] [mixin]: Error loading class: com/copycatsplus/copycats/content/copycat/board/CopycatBoardBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock)
+[18:32:08] [main/WARN] [mixin]: @Mixin target com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin from mod create_connected
+[18:32:08] [main/WARN] [mixin]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
+[18:32:08] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner]: Attempted to load class com/simibubi/create/foundation/gui/AbstractSimiScreen for invalid dist DEDICATED_SERVER
+[18:32:08] [main/WARN] [mixin]: Error loading class: com/simibubi/create/foundation/gui/AbstractSimiScreen (java.lang.RuntimeException: Attempted to load class com/simibubi/create/foundation/gui/AbstractSimiScreen for invalid dist DEDICATED_SERVER)
+[18:32:08] [main/WARN] [mixin]: @Mixin target com.simibubi.create.foundation.gui.AbstractSimiScreen was not found create_connected.mixins.json:sequencedgearshift.AbstractSimiScreenAccessor from mod create_connected
+[18:32:08] [main/WARN] [Radium Config]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[18:32:09] [main/WARN] [mixin]: Error loading class: rbasamoyai/createbigcannons/cannon_control/contraption/PitchOrientedContraptionEntity (java.lang.ClassNotFoundException: rbasamoyai.createbigcannons.cannon_control.contraption.PitchOrientedContraptionEntity)
+[18:32:09] [main/WARN] [mixin]: Error loading class: com/jamieswhiteshirt/reachentityattributes/ReachEntityAttributes (java.lang.ClassNotFoundException: com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes)
+[18:32:09] [main/WARN] [mixin]: Error loading class: blusunrize/immersiveengineering/common/gui/BlockEntityInventory (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.common.gui.BlockEntityInventory)
+[18:32:09] [main/WARN] [mixin]: Error loading class: net/dries007/tfc/world/TFCChunkGenerator (java.lang.ClassNotFoundException: net.dries007.tfc.world.TFCChunkGenerator)
+[18:32:09] [main/WARN] [mixin]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
+[18:32:09] [main/WARN] [mixin]: Error loading class: li/cil/tis3d/common/entity/InfraredPacketEntity (java.lang.ClassNotFoundException: li.cil.tis3d.common.entity.InfraredPacketEntity)
+[18:32:09] [main/WARN] [mixin]: Error loading class: me/desht/modularrouters/container/RouterMenu (java.lang.ClassNotFoundException: me.desht.modularrouters.container.RouterMenu)
+[18:32:09] [main/INFO] [memoryleakfix]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[18:32:09] [main/INFO] [memoryleakfix]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[18:32:09] [main/WARN] [mixin]: Error loading class: net/minecraft/client/particle/SimpleAnimatedParticle (java.lang.ClassNotFoundException: net.minecraft.client.particle.SimpleAnimatedParticle)
+[18:32:09] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[18:32:09] [main/INFO] [mixin]: Mixing server.MixinDedicatedServer from mixins/common/nochatreports.mixins.json into net.minecraft.server.dedicated.DedicatedServer
+[18:32:10] [main/INFO] [Smooth Boot (Reloaded)]: Smooth Boot (Reloaded) config initialized
+[18:32:11] [main/INFO] [mixin]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.network.FriendlyByteBuf
+[18:32:11] [main/INFO] [mixin]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to md7b9d52$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[18:32:11] [main/INFO] [mixin]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to md7b9d52$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[18:32:16] [main/INFO] [mixin]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.server.network.ServerGamePacketListenerImpl
+[18:32:17] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.3.5, for MC 1.20.1 with MCP 20230612.114412
+[18:32:17] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.3.5 Initialized
+[18:32:17] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.1.105 Initialized
+[18:32:17] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[18:32:17] [modloading-worker-0/INFO] [NoChatReports]: KONNICHIWA ZA WARUDO!
+[18:32:17] [modloading-worker-0/INFO] [NoChatReports]: Default JVM text encoding is: UTF-8
+[18:32:17] [modloading-worker-0/INFO] [NoChatReports]: Reading config file NoChatReports/NCR-Common.json...
+[18:32:17] [modloading-worker-0/INFO] [NoChatReports]: Writing config file NoChatReports/NCR-Common.json...
+[18:32:17] [modloading-worker-0/INFO] [Discord Integration]: Version is 3.0.7
+[18:32:17] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[18:32:17] [modloading-worker-0/ERROR] [Embeddium]: Failed to update fingerprint
 java.lang.NoClassDefFoundError: net/minecraft/client/Minecraft
-	at me.jellysquid.mods.sodium.client.data.fingerprint.FingerprintMeasure.create(FingerprintMeasure.java:19) ~[embeddium-0.3.12+mc1.20.1.jar%23292!/:?]
-	at me.jellysquid.mods.sodium.client.SodiumClientMod.updateFingerprint(SodiumClientMod.java:100) ~[embeddium-0.3.12+mc1.20.1.jar%23292!/:?]
-	at me.jellysquid.mods.sodium.client.SodiumClientMod.<init>(SodiumClientMod.java:41) ~[embeddium-0.3.12+mc1.20.1.jar%23292!/:?]
-	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
-	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:76) ~[javafmllanguage-1.20.1-47.2.30.jar%23322!/:?]
-	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.2.30.jar%23321!/:?]
+	at me.jellysquid.mods.sodium.client.data.fingerprint.FingerprintMeasure.create(FingerprintMeasure.java:19) ~[embeddium-0.3.12+mc1.20.1.jar%23301!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.updateFingerprint(SodiumClientMod.java:100) ~[embeddium-0.3.12+mc1.20.1.jar%23301!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.<init>(SodiumClientMod.java:41) ~[embeddium-0.3.12+mc1.20.1.jar%23301!/:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:76) ~[javafmllanguage-1.20.1-47.3.5.jar%23334!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.3.5.jar%23333!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) [?:?]
 Caused by: java.lang.ClassNotFoundException: net.minecraft.client.Minecraft
 	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:157) ~[securejarhandler-mohist-2.1.11.jar:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	... 17 more
-[11:41:12] [modloading-worker-0/INFO] [Discord Integration]: Version is 3.0.7
-[11:41:12] [modloading-worker-0/INFO] [coroutil]: forge loader environment detected
-[11:41:12] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.2.30, for MC 1.20.1 with MCP 20230612.114412
-[11:41:12] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.2.30 Initialized
-[11:41:12] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.2.30 Initialized
-[11:41:12] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
-[11:41:12] [modloading-worker-0/INFO] [NoChatReports]: KONNICHIWA ZA WARUDO!
-[11:41:12] [modloading-worker-0/INFO] [NoChatReports]: Default JVM text encoding is: UTF-8
-[11:41:12] [modloading-worker-0/INFO] [NoChatReports]: Reading config file NoChatReports/NCR-Common.json...
-[11:41:12] [modloading-worker-0/INFO] [NoChatReports]: Writing config file NoChatReports/NCR-Common.json...
-[11:41:12] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
-[11:41:12] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
-[11:41:12] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[11:41:12] [modloading-worker-0/INFO] [REI]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIServerPlugin
-[11:41:12] [modloading-worker-0/INFO] [REI]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIPlugin
-[11:41:12] [modloading-worker-0/INFO] [REI]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
-[11:41:12] [modloading-worker-0/INFO] [REI]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
-[11:41:12] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[11:41:12] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:create_item
-[11:41:12] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[11:41:12] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[11:41:12] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:move_items
-[11:41:12] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[11:41:13] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge]: Kotlin For Forge Enabled!
-[11:41:13] [modloading-worker-0/WARN] [mixin]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on valkyrienskies-common.mixins.json:mod_compat.create.block.MixinRedstoneContactBlock from mod valkyrienskies::handler$bij000$valkyrienskies$injectTick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[11:41:13] [modloading-worker-0/INFO] [mixin]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.status.ServerStatus
-[11:41:13] [main/INFO] [net.minecraft.resources.RegistryDataLoader]: Capturing existing worldgen registries
-[11:41:13] [main/INFO] [net.minecraft.resources.RegistryDataLoader]: Found 0 injected RegistryDataLoader worldgen registries
-[11:41:14] [main/INFO] [Moonlight]: Initialized block sets in 10ms
-[11:41:15] [modloading-worker-0/INFO] [cn.ussshenzhou.madparticle.MadParticle]: WelCome to the world of MadParticle!
-[11:41:15] [modloading-worker-0/INFO] [cn.ussshenzhou.t88.T88]: Welcome aboard the USS Vancouver!
-[11:41:15] [main/INFO] [Moonlight]: Initialized color sets in 18ms
-[11:41:15] [main/INFO] [terrablender]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[11:41:15] [main/INFO] [terrablender]: Registered region minecraft:nether to index 0 for type NETHER
-[11:41:15] [main/INFO] [terrablender]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[11:41:15] [main/INFO] [terrablender]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[11:41:15] [main/INFO] [terrablender]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[11:41:15] [main/INFO] [terrablender]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[11:41:15] [main/INFO] [terrablender]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[11:41:15] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[11:41:15] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer]: Loading Xaero's World Map - Stage 1/2 (Server)
-[11:41:15] [modloading-worker-0/INFO] [Discord Integration]: Waiting for JDA to initialize to send starting message... (max 5 seconds before skipping)
-[11:41:18] [DiscordIntegration Launch Thread/INFO] [Discord Integration]: Bot ready
-[11:41:18] [DiscordIntegration Launch Thread/INFO] [Discord Integration]: Loading DiscordIntegration Addons...
-[11:41:18] [DiscordIntegration Launch Thread/INFO] [Discord Integration]: Addon loading complete!
-[11:41:18] [DiscordIntegration Launch Thread/INFO] [Discord Integration]: Loading Linking Database...
-[11:41:18] [DiscordIntegration Launch Thread/INFO] [Discord Integration]: Linking Database initialized!
-[11:41:18] [DiscordIntegration Launch Thread/INFO] [Discord Integration]: LinkManager load | cache: []
-[11:41:19] [modloading-worker-0/INFO] [Discord Integration]: Finished registering! Registered 8 commands
-[11:41:19] [main/INFO] [xaero.map.server.WorldMapServer]: Loading Xaero's World Map - Stage 2/2 (Server)
-[11:41:19] [main/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[11:41:19] [modloading-worker-0/INFO] [weather2.Weather]: Got IMC []
-[11:41:19] [modloading-worker-0/INFO] [Jade]: Start loading plugin at twilightforest.compat.jade.JadeCompat
-[11:41:19] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[11:41:19] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[11:41:19] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[11:41:22] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:41:25] [main/WARN] [net.minecraft.server.packs.repository.Pack]: Missing metadata in pack mod:mr_no_creeperfireballdestroy
-[11:41:25] [main/WARN] [net.minecraft.server.MinecraftServer]: Missing data pack mod:mr_no_creeperfireballdestroy
-[11:41:27] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 36 recipes
-[11:41:27] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 2841 advancements
-[11:41:27] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 10 curio slots
-[11:41:27] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 1 curio entities
-[11:41:27] [main/INFO] [twilightforest]: Loaded 9 Stalactite configs!
-[11:41:27] [main/INFO] [REI]: [REI] ########################################
-[11:41:27] [main/INFO] [REI]: [REI] REIPlugin starting main-reload for START.
-[11:41:27] [main/INFO] [REI]: [REI] Plugins (2):
-[11:41:27] [main/INFO] [REI]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
-[11:41:27] [main/INFO] [REI]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[11:41:27] [main/INFO] [REI]: [REI] ########################################
-[11:41:27] [main/INFO] [REI]: [REI] ========================================
-[11:41:27] [main/INFO] [REI]: [REI] REIServerPlugin starting main-reload for START.
-[11:41:27] [main/INFO] [REI]: [REI] Plugins (2):
-[11:41:27] [main/INFO] [REI]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
-[11:41:27] [main/INFO] [REI]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[11:41:27] [main/INFO] [REI]: [REI] ========================================
-[11:41:27] [main/INFO] [REI]: [REI] REIPlugin finished post-reload for START in 1.578 ms, totaling 33.75 ms.
-[11:41:27] [main/INFO] [REI]: [REI] REIServerPlugin finished post-reload for START in 537.4 μs, totaling 3.024 ms.
-[11:41:27] [main/INFO] [REI]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-[11:41:27] [main/INFO] [REI]: [REI] REIPlugin starting main-reload for END.
-[11:41:27] [main/INFO] [REI]: [REI] Plugins (2):
-[11:41:27] [main/INFO] [REI]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
-[11:41:27] [main/INFO] [REI]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[11:41:27] [main/INFO] [REI]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-[11:41:27] [main/INFO] [REI]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[11:41:27] [main/INFO] [REI]: [REI] REIServerPlugin starting main-reload for END.
-[11:41:27] [main/INFO] [REI]: [REI] Plugins (2):
-[11:41:27] [main/INFO] [REI]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
-[11:41:27] [main/INFO] [REI]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[11:41:27] [main/INFO] [REI]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[11:41:27] [main/INFO] [REI]: [REI] REIPlugin finished post-reload for END in 561.1 μs, totaling 18.56 ms.
-[11:41:27] [main/INFO] [REI]: [REI] REIServerPlugin finished post-reload for END in 346.7 μs, totaling 4.861 ms.
-[11:41:29] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver]: No specified tag 'minecraft:carpets' doesn't exist!
-[11:41:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
-[11:41:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[11:41:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[11:41:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
-[11:41:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[11:41:30] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
-[11:41:30] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:41:30] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[11:41:30] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:41:30] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:41:30] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-699 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.2.30, NeoForge version 47.1.79)
-[11:41:30] [Server thread/INFO] []: Finalizing energy block registration
-[11:41:30] [Server thread/INFO] []: Finalizing fluid block registration
-[11:41:30] [Server thread/INFO] [Minecraft]: Debug logging is enabled
-[11:41:30] [Server thread/INFO] []: Server Ping Player Sample Count: 20
-[11:41:30] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
-[11:41:31] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
-[11:41:31] [Server thread/INFO] [enderlava.tpj.Tpj]: [Tpj] Loading Tpj v1.0
-[11:41:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:         __    
-[11:41:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:   |    |__)   LuckPerms v5.4.102
-[11:41:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:   |___ |      Running on Forge - Forge
-[11:41:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 
-[11:41:31] [Server thread/INFO] [luckperms]: Loading configuration...
-[11:41:31] [Server thread/INFO] [luckperms]: Loading storage provider... [H2]
-[11:41:31] [Server thread/INFO] [luckperms]: Loading internal permission managers...
-[11:41:31] [Server thread/INFO] [luckperms]: Performing initial data load...
-[11:41:31] [Server thread/INFO] [luckperms]: Successfully enabled. (took 16304ms)
-[11:41:31] [Server thread/INFO] [terrablender]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[11:41:31] [Server thread/INFO] [terrablender]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[11:41:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[11:41:32] [Server thread/INFO] [org.valkyrienskies.core.impl.networking.VSNetworking]: We are not using UDP, falling back to TCP
-[11:41:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
-[11:41:36] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:36] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:37] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:37] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:37] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:37] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:37] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 25%
-[11:41:38] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2804 ms
-[11:41:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:amalthea
-[11:41:38] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:38] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:38] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:39] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 75%
-[11:41:39] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1073 ms
-[11:41:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:jupiter
-[11:41:39] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:39] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:39] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:40] [Worker-Main-16/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 25%
-[11:41:40] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1263 ms
-[11:41:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:uranus
-[11:41:40] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:40] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:40] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:41] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 31%
-[11:41:41] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1183 ms
-[11:41:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension twilightforest:twilight_forest
-[11:41:41] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:42] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:42] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:42] [Worker-Main-16/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 18%
-[11:41:42] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:42] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1240 ms
-[11:41:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:jupiter_orbit
-[11:41:43] [Worker-Main-16/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:43] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:43] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:43] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 867 ms
-[11:41:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:neptune
-[11:41:44] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:44] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:44] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:44] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 954 ms
-[11:41:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:phobos
-[11:41:45] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:45] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:45] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:45] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 68%
-[11:41:45] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1118 ms
-[11:41:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:saturn_orbit
-[11:41:46] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:46] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:46] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:46] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 875 ms
-[11:41:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
-[11:41:47] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:47] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:47] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 921 ms
-[11:41:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:thebe_orbit
-[11:41:47] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:48] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:48] [Worker-Main-17/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:48] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 871 ms
-[11:41:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:neptune_orbit
-[11:41:48] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:48] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:48] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:49] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 909 ms
-[11:41:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:amalthea_orbit
-[11:41:49] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:49] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:49] [Worker-Main-16/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:50] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 908 ms
-[11:41:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:mars_orbit
-[11:41:50] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:50] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:50] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:51] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 907 ms
-[11:41:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:mercury
-[11:41:51] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:52] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:52] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:52] [Worker-Main-16/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:52] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:52] [Worker-Main-17/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 77%
-[11:41:52] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1589 ms
-[11:41:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:earth_orbit
-[11:41:53] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:53] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:53] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 874 ms
-[11:41:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:phobos_orbit
-[11:41:53] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:54] [Worker-Main-17/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:54] [Worker-Main-17/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:54] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 850 ms
-[11:41:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:adrastea_orbit
-[11:41:54] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:55] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:55] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:55] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 91%
-[11:41:55] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1018 ms
-[11:41:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:metis_orbit
-[11:41:55] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:55] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:56] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:56] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 879 ms
-[11:41:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:deimos_orbit
-[11:41:56] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:56] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:56] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:57] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 844 ms
-[11:41:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
-[11:41:57] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:57] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:57] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:58] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 86%
-[11:41:58] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1080 ms
-[11:41:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:saturn
-[11:41:58] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:58] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:58] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:59] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 984 ms
-[11:41:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:venus
-[11:41:59] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:41:59] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:41:59] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:00] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 24%
-[11:42:00] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1220 ms
-[11:42:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:moon
-[11:42:00] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:01] [Worker-Main-17/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:01] [Worker-Main-17/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:01] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 35%
-[11:42:01] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:01] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1187 ms
-[11:42:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:metis
-[11:42:02] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:02] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:02] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 962 ms
-[11:42:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:thebe
-[11:42:02] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:03] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:03] [Worker-Main-16/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:03] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 983 ms
-[11:42:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:mars
-[11:42:03] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:03] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:04] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:04] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 951 ms
-[11:42:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:mercury_orbit
-[11:42:04] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:05] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:05] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:05] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 845 ms
-[11:42:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:venus_orbit
-[11:42:05] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:05] [Worker-Main-16/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:05] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:06] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 820 ms
-[11:42:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:deimos
-[11:42:06] [Worker-Main-17/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:06] [Worker-Main-17/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:06] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:07] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 956 ms
-[11:42:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:glacio_orbit
-[11:42:07] [Worker-Main-17/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:07] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 1%
-[11:42:07] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:08] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 835 ms
-[11:42:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:uranus_orbit
-[11:42:08] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:08] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:08] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:09] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 988 ms
-[11:42:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:moon_orbit
-[11:42:09] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:09] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 1%
-[11:42:09] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:09] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 816 ms
-[11:42:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:adrastea
-[11:42:10] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:10] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:10] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:10] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 89%
-[11:42:10] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1021 ms
-[11:42:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:glacio
-[11:42:11] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:11] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
-[11:42:11] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:11] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 80%
-[11:42:11] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1060 ms
-[11:42:11] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
-[11:42:12] [Server thread/INFO] [mixin]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatPacket
-[11:42:12] [Server thread/INFO] [mixin]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatCommandPacket
-[11:42:12] [Server thread/INFO] [mixin]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatSessionUpdatePacket
-[11:42:12] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Fetching available expansion information...
-[11:42:12] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered expansion: mohist [1.20.1]
-[11:42:12] [Server thread/INFO] [com.mohistmc.MohistMC]: Hook PlaceholderAPI!
-[11:42:12] [Server thread/INFO] [enderlava.tpj.Tpj]: [Tpj] Enabling Tpj v1.0
-[11:42:12] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Enabling Mohist v1.20.1
-[11:42:12] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
-[11:42:12] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[11:42:12] [Server thread/INFO] [Console]: 0 placeholder hook(s) registered!
-[11:42:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (41.618s)! For help, type "help"
-[11:42:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting remote control listener
-[11:42:12] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread]: Thread RCON Listener started
-[11:42:12] [Server thread/INFO] [net.minecraft.server.rcon.thread.RconThread]: RCON running on 0.0.0.0:25575
-[11:42:12] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread]: Thread RCON Client /127.0.0.1 started
-[11:42:12] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler luckperms:permission_handler
-[11:42:12] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[luckperms:permission_handler] to bukkit[mohist:permission]
-[11:42:12] [Server thread/INFO] [Discord Integration]: Started
-[11:42:12] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:13] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:14] [DiscordIntegration-Core WorkerThread/INFO] [Discord Integration]: No need to regenerate local commands
-[11:42:14] [DiscordIntegration-Core WorkerThread/INFO] [Discord Integration]: No need to regenerate global commands
-[11:42:14] [DiscordIntegration-Core WorkerThread/INFO] [Discord Integration]: Added command list with ID 1235553815894294599
-[11:42:14] [DiscordIntegration-Core WorkerThread/INFO] [Discord Integration]: Added command uptime with ID 1235553815894294600
-[11:42:14] [DiscordIntegration-Core WorkerThread/INFO] [Discord Integration]: Added command settings with ID 1235553815894294601
-[11:42:14] [DiscordIntegration-Core WorkerThread/INFO] [Discord Integration]: Added command linkcheck with ID 1235553815894294604
-[11:42:14] [DiscordIntegration-Core WorkerThread/INFO] [Discord Integration]: Added command link with ID 1235553815894294605
-[11:42:14] [DiscordIntegration-Core WorkerThread/INFO] [Discord Integration]: Added command kick with ID 1235553816473239612
-[11:42:14] [DiscordIntegration-Core WorkerThread/INFO] [Discord Integration]: Added command stop with ID 1235553816473239613
-[11:42:14] [DiscordIntegration-Core WorkerThread/INFO] [Discord Integration]: Added command kill with ID 1235553816473239615
-[11:42:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:42:14] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:15] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:amalthea
-[11:42:16] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:17] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:jupiter
-[11:42:18] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:19] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:uranus
-[11:42:20] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
-[11:42:21] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:22] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:jupiter_orbit
-[11:42:23] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:24] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:neptune
-[11:42:25] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:26] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:phobos
-[11:42:27] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:saturn_orbit
-[11:42:28] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:29] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[11:42:30] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:thebe_orbit
-[11:42:31] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:32] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:neptune_orbit
-[11:42:33] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:34] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:amalthea_orbit
-[11:42:35] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
-[11:42:36] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:37] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
-[11:42:38] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:39] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
-[11:42:40] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:phobos_orbit
-[11:42:41] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:42] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:adrastea_orbit
-[11:42:43] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:metis_orbit
-[11:42:44] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:45] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:deimos_orbit
-[11:42:46] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[11:42:47] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:48] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:saturn
-[11:42:49] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:50] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
-[11:42:51] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:52] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
-[11:42:53] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:54] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:55] [Server thread/INFO] []: Finalizing energy item registration
-[11:42:55] [Server thread/INFO] []: Finalizing fluid item registration
-[11:42:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:metis
-[11:42:55] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:56] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:thebe
-[11:42:57] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
-[11:42:58] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:42:59] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:43:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
-[11:43:00] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:43:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
-[11:43:01] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:43:02] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:43:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:deimos
-[11:43:03] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:43:04] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:43:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
-[11:43:05] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:43:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:uranus_orbit
-[11:43:06] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:43:07] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:43:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
-[11:43:08] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:43:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/adastraextra:adrastea
-[11:43:09] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:43:10] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:43:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
-[11:43:11] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:43:12] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (amalthea): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (jupiter): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (uranus): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (jupiter_orbit): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (neptune): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (phobos): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (saturn_orbit): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (thebe_orbit): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (neptune_orbit): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (amalthea_orbit): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (phobos_orbit): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (adrastea_orbit): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (metis_orbit): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (deimos_orbit): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (saturn): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (venus): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (moon): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (metis): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (thebe): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (mars): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (deimos): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (uranus_orbit): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (adrastea): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
-[11:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
-[11:43:13] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading...
-[11:43:13] [BlueMap-Plugin-Loading/WARN] [BlueMap]: BlueMap is missing important resources!
-[11:43:13] [BlueMap-Plugin-Loading/WARN] [BlueMap]: You must accept the required file download in order for BlueMap to work!
-[11:43:13] [BlueMap-Plugin-Loading/WARN] [BlueMap]: Please check: /media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/config/bluemap/core.conf
-[11:43:13] [BlueMap-Plugin-Loading/INFO] [BlueMap]: If you have changed the config you can simply reload the plugin using: /bluemap reload
-[11:43:13] [Server thread/INFO] [Console]: Unknown command. Type "/help" for help.
-[11:43:14] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.5) is available at:
-[11:43:14] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
-[11:43:15] [Server thread/INFO] [coroutil]: CoroUtil detected Serene Seasons Not Installed for use
-[11:45:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Reloading BlueMap...
-[11:45:37] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Downloading https://piston-data.mojang.com/v1/objects/e575a48efda46cf88111ba05b624ef90c520eef1/client.jar to bluemap/minecraft-client-1.20.0.jar ...
-[11:45:42] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading resources...
-[11:45:42] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading textures...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Baking resources...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Resources loaded.
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '9224ff9c-4ce4-4856-a009-d85a84d2b388' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/amalthea)...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Initializing Storage: 'file' (Type: FILE)
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 2'...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world 'cc60b0b3-34c4-4998-8246-425e2c3c8c38' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/uranus)...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 4'...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '1fa5263b-74cc-4fb4-8179-0a296d45750e' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/jupiter)...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 3'...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '541f87ff-54da-4d88-aa03-a07310843dae' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/metis_orbit)...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 18'...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world 'bb8eda31-54cc-4542-943e-972729020683' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/jupiter_orbit)...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 6'...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world 'fa82e489-568a-456b-b9e9-4b1fe2afcf2f' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/deimos_orbit)...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 19'...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '1f7fe4d6-fa94-4c44-b236-c770aeb7ec8c' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/twilightforest/twilight_forest)...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 5'...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '84eb502a-8b83-4cbb-8225-107354e9616a' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/phobos)...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 8'...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world 'e788eee7-bd40-44e7-b73c-88ab4487997f' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/neptune)...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 7'...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '98b14d32-07ef-46a9-853b-78b5eaafbd4d' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/ad_astra/mercury)...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 14'...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world 'd89b4a77-feac-49ad-9ff6-66a215cb7436' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/ad_astra/earth_orbit)...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 15'...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '0bd177fc-8835-45ef-bcbe-67fa90aef6d0' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/saturn_orbit)...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 9'...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '60552e73-bd62-4702-ad6c-fa79cee4fee9' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/phobos_orbit)...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 16'...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '598f8076-18c2-429a-9f97-bf063805b560' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/adrastea_orbit)...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 17'...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '5278a44d-0492-40bc-a3dd-7838d3847f17' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/thebe_orbit)...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 10'...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world 'e4ef5e3f-b6d9-4ef9-8bdb-dd20832eaf88' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/adrastea)...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 32'...
-[11:45:49] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world 'd6fa036f-5e61-4580-9df6-efb92eda85ec' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/neptune_orbit)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 11'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '63090bf9-32c3-49c0-998b-920d56589ac2' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/ad_astra/glacio)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 33'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '5ee95f68-32dc-4e40-89aa-16792e6c1b94' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/amalthea_orbit)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 12'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '9a6aa809-4f17-432d-8c78-79310986f622' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/ad_astra/mars_orbit)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 13'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '1a26ddd9-4b3a-4b31-a5ad-e0ddffc029ea' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/saturn)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 20'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '3ecfdcfa-0b7e-448f-9e08-e2af945f0dcb' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/DIM1)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'End'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '9db13f8e-acd7-426a-bad4-2af0080c83c2' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/DIM-1)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Nether'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '71638a5b-ff0e-4950-9620-bec83c8f6db3' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/ad_astra/glacio_orbit)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 29'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world 'f8af3685-99f7-41d5-89b5-75c8dc44f461' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/ad_astra/mars)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 25'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world 'bf69b2dc-fb54-4bbb-9496-0138bc2d1832' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/ad_astra/mercury_orbit)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 26'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '176c4fef-35f8-40f6-827c-0fd99d96c289' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/ad_astra/venus_orbit)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 27'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '1b1a014e-04cd-4d38-9701-8a1cfa2bfed7' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world 'e32430ed-ffb4-4022-ab5e-65ea9c63cc6a' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/deimos)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 28'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '8c6b0d81-ef19-4aec-95b4-907d7df774e2' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/ad_astra/venus)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 21'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world 'ec7ddff5-6555-4db5-b341-f2f5d7374ce1' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/ad_astra/moon)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 22'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '96c5e4ba-7fd0-4bd3-acec-1988301d0ce5' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/metis)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 23'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '3bdfead3-f2c2-41ed-ba95-446363f4372d' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/thebe)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 24'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '82c07089-b858-4e82-9271-3376ad594149' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/adastraextra/uranus_orbit)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 30'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading world '08397bc6-3cfd-4df7-a7ee-a917f3423a95' (/media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/world/dimensions/ad_astra/moon_orbit)...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: Loading map 'Overworld 31'...
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [BlueMap]: WebServer bound to all network interfaces on port 8100
-[11:45:50] [Thread-41/INFO] [BlueMap]: WebServer started.
-[11:45:50] [BlueMap-Plugin-ReloadCommand/ERROR] [BlueMap]: Failed to create file-watcher for map: overworld_23 (This means the map might not automatically update)
-java.io.IOException: User limit of inotify instances reached or too many open files
-	at sun.nio.fs.LinuxWatchService.<init>(LinuxWatchService.java:62) ~[?:?]
-	at sun.nio.fs.LinuxFileSystem.newWatchService(LinuxFileSystem.java:47) ~[?:?]
-	at de.bluecolored.bluemap.common.plugin.RegionFileWatchService.<init>(RegionFileWatchService.java:66) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.startWatchingMap(Plugin.java:545) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.initFileWatcherTasks(Plugin.java:654) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.load(Plugin.java:344) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.load(Plugin.java:112) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.reload(Plugin.java:465) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.commands.Commands.lambda$reloadCommand$5(Commands.java:398) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at java.lang.Thread.run(Thread.java:840) [?:?]
-[11:45:50] [BlueMap-Plugin-ReloadCommand/ERROR] [BlueMap]: Failed to create file-watcher for map: overworld_24 (This means the map might not automatically update)
-java.io.IOException: User limit of inotify instances reached or too many open files
-	at sun.nio.fs.LinuxWatchService.<init>(LinuxWatchService.java:62) ~[?:?]
-	at sun.nio.fs.LinuxFileSystem.newWatchService(LinuxFileSystem.java:47) ~[?:?]
-	at de.bluecolored.bluemap.common.plugin.RegionFileWatchService.<init>(RegionFileWatchService.java:66) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.startWatchingMap(Plugin.java:545) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.initFileWatcherTasks(Plugin.java:654) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.load(Plugin.java:344) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.load(Plugin.java:112) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.reload(Plugin.java:465) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.commands.Commands.lambda$reloadCommand$5(Commands.java:398) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at java.lang.Thread.run(Thread.java:840) [?:?]
-[11:45:50] [BlueMap-Plugin-ReloadCommand/ERROR] [BlueMap]: Failed to create file-watcher for map: overworld_30 (This means the map might not automatically update)
-java.io.IOException: User limit of inotify instances reached or too many open files
-	at sun.nio.fs.LinuxWatchService.<init>(LinuxWatchService.java:62) ~[?:?]
-	at sun.nio.fs.LinuxFileSystem.newWatchService(LinuxFileSystem.java:47) ~[?:?]
-	at de.bluecolored.bluemap.common.plugin.RegionFileWatchService.<init>(RegionFileWatchService.java:66) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.startWatchingMap(Plugin.java:545) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.initFileWatcherTasks(Plugin.java:654) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.load(Plugin.java:344) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.load(Plugin.java:112) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.reload(Plugin.java:465) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.commands.Commands.lambda$reloadCommand$5(Commands.java:398) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at java.lang.Thread.run(Thread.java:840) [?:?]
-[11:45:50] [BlueMap-Plugin-ReloadCommand/ERROR] [BlueMap]: Failed to create file-watcher for map: overworld_31 (This means the map might not automatically update)
-java.io.IOException: User limit of inotify instances reached or too many open files
-	at sun.nio.fs.LinuxWatchService.<init>(LinuxWatchService.java:62) ~[?:?]
-	at sun.nio.fs.LinuxFileSystem.newWatchService(LinuxFileSystem.java:47) ~[?:?]
-	at de.bluecolored.bluemap.common.plugin.RegionFileWatchService.<init>(RegionFileWatchService.java:66) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.startWatchingMap(Plugin.java:545) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.initFileWatcherTasks(Plugin.java:654) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.load(Plugin.java:344) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.load(Plugin.java:112) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.Plugin.reload(Plugin.java:465) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at de.bluecolored.bluemap.common.plugin.commands.Commands.lambda$reloadCommand$5(Commands.java:398) ~[BlueMap-3.20-forge-1.20.jar%23277!/:3.20]
-	at java.lang.Thread.run(Thread.java:840) [?:?]
-[11:45:50] [BlueMap-Plugin-ReloadCommand/INFO] [net.minecraft.server.MinecraftServer]: BlueMap reloaded!
-[11:47:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在关闭服务器
-[11:47:51] [Server thread/INFO] [BlueMap]: BlueMap unloaded!
-[11:47:51] [Server thread/INFO] [luckperms]: Starting shutdown process...
-[11:47:51] [Server thread/INFO] [luckperms]: Closing storage...
-[11:47:51] [Server thread/INFO] [luckperms]: Goodbye!
-[11:47:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[11:47:51] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Disabling Mohist v1.20.1
-[11:47:51] [RCON Client /127.0.0.1 #2/INFO] [net.minecraft.server.rcon.thread.RconClient]: Thread RCON Client /127.0.0.1 shutting down
-[11:47:51] [Server thread/INFO] [enderlava.tpj.Tpj]: [Tpj] Disabling Tpj v1.0
-[11:47:51] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
-[11:47:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[11:47:51] [Physics thread/INFO] []: Running deletePhysicsResources
-[11:47:51] [Physics thread/INFO] [Burger Factory]: Deleting VSPhysicsPipelineStage resources!
-[11:47:51] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ap]: Physics pipeline ending
-[11:47:51] [DefaultDispatcher-worker-15/INFO] [Burger Factory]: VSPhysicsPipelineStage is fully deleted!
-[11:47:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[11:47:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+	... 15 more
+[18:32:17] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[18:32:17] [modloading-worker-0/INFO] [coroutil]: forge loader environment detected
+[18:32:17] [modloading-worker-0/INFO] [mixin]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.server.players.PlayerList
+[18:32:17] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
+[18:32:18] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[18:32:18] [modloading-worker-0/INFO] [REI]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIServerPlugin
+[18:32:18] [modloading-worker-0/INFO] [REI]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIPlugin
+[18:32:18] [modloading-worker-0/INFO] [REI]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[18:32:18] [modloading-worker-0/INFO] [REI]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[18:32:18] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[18:32:18] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:create_item
+[18:32:18] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[18:32:18] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[18:32:18] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:move_items
+[18:32:18] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[18:32:19] [modloading-worker-0/WARN] [mixin]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on valkyrienskies-common.mixins.json:mod_compat.create.block.MixinRedstoneContactBlock from mod valkyrienskies::handler$bkh000$valkyrienskies$injectTick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[18:32:20] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge]: Kotlin For Forge Enabled!
+[18:32:21] [modloading-worker-0/INFO] [mixin]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.status.ServerStatus
+[18:32:21] [main/INFO] [net.minecraft.resources.RegistryDataLoader]: Capturing existing worldgen registries
+[18:32:21] [main/INFO] [net.minecraft.resources.RegistryDataLoader]: Found 0 injected RegistryDataLoader worldgen registries
+[18:32:23] [main/INFO] [Moonlight]: Initialized block sets in 21ms
+[18:32:24] [modloading-worker-0/INFO] [cn.ussshenzhou.madparticle.MadParticle]: WelCome to the world of MadParticle!
+[18:32:24] [modloading-worker-0/INFO] [cn.ussshenzhou.t88.T88]: Welcome aboard the USS Vancouver!
+[18:32:25] [main/INFO] [terrablender]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[18:32:25] [main/INFO] [terrablender]: Registered region minecraft:nether to index 0 for type NETHER
+[18:32:25] [main/INFO] [terrablender]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[18:32:25] [main/INFO] [terrablender]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[18:32:25] [main/INFO] [terrablender]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[18:32:25] [main/INFO] [terrablender]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[18:32:25] [main/INFO] [terrablender]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[18:32:25] [main/INFO] [Moonlight]: Initialized color sets in 23ms
+[18:32:25] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[18:32:25] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer]: Loading Xaero's World Map - Stage 1/2 (Server)
+[18:32:25] [modloading-worker-0/INFO] [Discord Integration]: Waiting for JDA to initialize to send starting message... (max 5 seconds before skipping)
+[18:32:31] [main/INFO] [xaero.map.server.WorldMapServer]: Loading Xaero's World Map - Stage 2/2 (Server)
+[18:32:31] [main/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[18:32:31] [modloading-worker-0/INFO] [weather2.Weather]: Got IMC []
+[18:32:31] [modloading-worker-0/INFO] [Jade]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[18:32:31] [modloading-worker-0/INFO] [Jade]: Start loading plugin at xfacthd.framedblocks.common.compat.jade.FramedJadePlugin
+[18:32:31] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[18:32:31] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[18:32:31] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[18:32:31] [modloading-worker-0/INFO] [Jade]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[18:32:36] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:32:39] [main/WARN] [net.minecraft.server.packs.repository.Pack]: Missing metadata in pack mod:mr_no_creeperfireballdestroy
+[18:32:39] [main/WARN] [net.minecraft.server.MinecraftServer]: Missing data pack mod:mr_no_creeperfireballdestroy
+[18:32:42] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 37 recipes
+[18:32:42] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 3133 advancements
+[18:32:42] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 10 curio slots
+[18:32:42] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 1 curio entities
+[18:32:42] [main/INFO] [twilightforest]: Loaded 9 Stalactite configs!
+[18:32:42] [main/INFO] [REI]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[18:32:42] [main/INFO] [REI]: [REI] REIPlugin starting main-reload for START.
+[18:32:42] [main/INFO] [REI]: [REI] Plugins (2):
+[18:32:42] [main/INFO] [REI]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[18:32:42] [main/INFO] [REI]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[18:32:42] [main/INFO] [REI]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[18:32:43] [main/INFO] [REI]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[18:32:43] [main/INFO] [REI]: [REI] REIServerPlugin starting main-reload for START.
+[18:32:43] [main/INFO] [REI]: [REI] Plugins (2):
+[18:32:43] [main/INFO] [REI]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[18:32:43] [main/INFO] [REI]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[18:32:43] [main/INFO] [REI]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[18:32:43] [main/INFO] [REI]: [REI] REIPlugin finished post-reload for START in 4.690 ms, totaling 141.2 ms.
+[18:32:43] [main/INFO] [REI]: [REI] REIServerPlugin finished post-reload for START in 212.7 μs, totaling 1.666 ms.
+[18:32:43] [main/INFO] [REI]: [REI] ========================================
+[18:32:43] [main/INFO] [REI]: [REI] REIPlugin starting main-reload for END.
+[18:32:43] [main/INFO] [REI]: [REI] Plugins (2):
+[18:32:43] [main/INFO] [REI]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[18:32:43] [main/INFO] [REI]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[18:32:43] [main/INFO] [REI]: [REI] ========================================
+[18:32:43] [main/INFO] [REI]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[18:32:43] [main/INFO] [REI]: [REI] REIServerPlugin starting main-reload for END.
+[18:32:43] [main/INFO] [REI]: [REI] Plugins (2):
+[18:32:43] [main/INFO] [REI]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[18:32:43] [main/INFO] [REI]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[18:32:43] [main/INFO] [REI]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[18:32:43] [main/INFO] [REI]: [REI] REIPlugin finished post-reload for END in 762.7 μs, totaling 83.21 ms.
+[18:32:43] [main/INFO] [REI]: [REI] REIServerPlugin finished post-reload for END in 537.6 μs, totaling 8.711 ms.
+[18:32:46] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver]: No specified tag 'minecraft:carpets' doesn't exist!
+[18:32:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 正在启动的 我的世界[Minecraft] 服务器对应的客户端版本为 1.20.1
+[18:32:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 小小墨正在翻阅服务器配置文件(server.properties)...
+[18:32:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 默认游戏模式为: SURVIVAL
+[18:32:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[18:32:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 正在位于 *:25565 的网络地址启动 我的世界[Minecraft] 服务器
+[18:32:46] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using default channel type
+[18:32:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: ///!!! 小小墨警告∑( 口 || !!!///
+[18:32:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: 您的Mohist核心正处于离线模式之中，核心将不会对玩家名称进行身份验证，请确保您的服务器安全！
+[18:32:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: 得益于离线模式，您的服务器玩家只要与您处在一个Nat网络下即可加入服务器，而无需网络链接，但同时也给了黑客可乘之机！
+[18:32:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: 如果您想回到在线模式，请将 server.properties 文件中的 "online-mode" 配置项更改为 "true"！
+[18:32:47] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-790 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.3.5, NeoForge version 47.1.105)
+[18:32:47] [Server thread/INFO] []: Finalizing energy block registration
+[18:32:47] [Server thread/INFO] []: Finalizing fluid block registration
+[18:32:47] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[18:32:47] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[18:32:47] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[18:32:48] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
+[18:32:48] [Server thread/INFO] [enderlava.tpj.Tpj]: [Tpj] Loading Tpj v1.0
+[18:32:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:         __    
+[18:32:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:   |    |__)   LuckPerms v5.4.102
+[18:32:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]:   |___ |      Running on Forge - Forge
+[18:32:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 
+[18:32:48] [Server thread/INFO] [luckperms]: Loading configuration...
+[18:32:49] [Server thread/INFO] [luckperms]: Loading storage provider... [H2]
+[18:32:49] [Server thread/INFO] [luckperms]: Loading internal permission managers...
+[18:32:49] [Server thread/INFO] [luckperms]: Performing initial data load...
+[18:32:49] [Server thread/INFO] [luckperms]: Successfully enabled. (took 24968ms)
+[18:32:50] [Server thread/INFO] [terrablender]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[18:32:50] [Server thread/INFO] [terrablender]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[18:32:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[18:32:51] [Server thread/INFO] [org.valkyrienskies.core.impl.networking.VSNetworking]: We are not using UDP, falling back to TCP
+[18:32:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[18:32:56] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:32:57] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:32:57] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:32:57] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:32:57] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:32:57] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:32:57] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:32:57] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:32:57] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:32:57] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:32:58] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：3%
+[18:32:58] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：62%
+[18:32:58] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 4741 ms
+[18:32:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:adrastea
+[18:32:58] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:32:59] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:32:59] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:32:59] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:32:59] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:00] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:00] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：95%
+[18:33:00] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2014 ms
+[18:33:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:amalthea_orbit
+[18:33:00] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:01] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:01] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:01] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:01] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:02] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1411 ms
+[18:33:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:jupiter_orbit
+[18:33:02] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:03] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:03] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:03] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:03] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1456 ms
+[18:33:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:deimos_orbit
+[18:33:03] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:04] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:04] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:04] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:04] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:05] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1479 ms
+[18:33:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:uranus
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: Exception in thread "DiscordIntegration Launch Thread" net.dv8tion.jda.api.exceptions.ErrorResponseException: -1: java.net.SocketTimeoutException
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.internal.requests.RestActionImpl.complete(RestActionImpl.java:227)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.api.requests.RestAction.complete(RestAction.java:632)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.internal.JDAImpl.verifyToken(JDAImpl.java:405)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.internal.JDAImpl.login(JDAImpl.java:329)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.internal.JDAImpl.login(JDAImpl.java:295)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.api.JDABuilder.build(JDABuilder.java:1937)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/de.erdbeerbaerlp.dcintegration.common.DiscordIntegration$LaunchThread.run(DiscordIntegration.java:545)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: Caused by: java.net.SocketTimeoutException: Connect timed out
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at java.base/java.net.Socket.connect(Socket.java:752)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/dcshadow.okhttp.internal.platform.Platform.connectSocket(Platform.kt:128)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/dcshadow.okhttp.internal.connection.RealConnection.connectSocket(RealConnection.kt:295)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/dcshadow.okhttp.internal.connection.RealConnection.connect(RealConnection.kt:207)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/dcshadow.okhttp.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:226)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/dcshadow.okhttp.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:106)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/dcshadow.okhttp.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:74)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/dcshadow.okhttp.internal.connection.RealCall.initExchange$okhttp(RealCall.kt:255)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/dcshadow.okhttp.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:32)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/dcshadow.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/dcshadow.okhttp.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/dcshadow.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/dcshadow.okhttp.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/dcshadow.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/dcshadow.okhttp.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/dcshadow.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/dcshadow.okhttp.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/dcshadow.okhttp.internal.connection.RealCall.execute(RealCall.kt:154)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.internal.requests.Requester.execute(Requester.java:190)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.internal.requests.Requester.execute(Requester.java:264)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.internal.requests.Requester.execute(Requester.java:145)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.internal.requests.Requester.execute(Requester.java:128)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.internal.requests.Requester$WorkTask.execute(Requester.java:387)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.api.requests.SequentialRestRateLimiter$Bucket.execute(SequentialRestRateLimiter.java:477)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.api.requests.SequentialRestRateLimiter$Bucket.run(SequentialRestRateLimiter.java:517)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at java.base/java.lang.Thread.run(Thread.java:1570)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	Suppressed: java.net.SocketTimeoutException: Connect timed out
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 		... 31 more
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: Caused by: net.dv8tion.jda.api.exceptions.ContextException
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.api.exceptions.ContextException.here(ContextException.java:54)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.api.requests.Request.<init>(Request.java:77)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.api.requests.RestFuture.<init>(RestFuture.java:40)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.internal.requests.RestActionImpl.submit(RestActionImpl.java:209)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.internal.requests.RestActionImpl.complete(RestActionImpl.java:219)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.api.requests.RestAction.complete(RestAction.java:632)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.internal.JDAImpl.verifyToken(JDAImpl.java:405)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.internal.JDAImpl.login(JDAImpl.java:329)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.internal.JDAImpl.login(JDAImpl.java:295)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/net.dv8tion.jda.api.JDABuilder.build(JDABuilder.java:1937)
+[18:33:05] [DiscordIntegration Launch Thread/WARN] []: 	at TRANSFORMER/dcintegration@3.0.7/de.erdbeerbaerlp.dcintegration.common.DiscordIntegration$LaunchThread.run(DiscordIntegration.java:545)
+[18:33:05] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:05] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:05] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:06] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:06] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：7%
+[18:33:06] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:06] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1798 ms
+[18:33:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:moon
+[18:33:07] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:07] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:07] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:07] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:08] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：5%
+[18:33:08] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1854 ms
+[18:33:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension twilightforest:twilight_forest
+[18:33:09] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:09] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:09] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:09] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:10] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:10] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1421 ms
+[18:33:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:earth_orbit
+[18:33:10] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:10] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:11] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:11] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:11] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1317 ms
+[18:33:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:neptune_orbit
+[18:33:12] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:12] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:12] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:12] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：16%
+[18:33:12] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1216 ms
+[18:33:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:phobos
+[18:33:13] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:13] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:13] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:13] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:14] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:14] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：53%
+[18:33:14] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1636 ms
+[18:33:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:glacio_orbit
+[18:33:15] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:15] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:15] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:15] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:15] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1357 ms
+[18:33:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:jupiter
+[18:33:16] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:16] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:16] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:16] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:17] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:17] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：55%
+[18:33:17] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1634 ms
+[18:33:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:venus_orbit
+[18:33:17] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:17] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:18] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:18] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：1%
+[18:33:18] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1266 ms
+[18:33:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:deimos
+[18:33:19] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:19] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:19] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:19] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：6%
+[18:33:20] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1356 ms
+[18:33:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:uranus_orbit
+[18:33:20] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:20] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:20] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:21] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：41%
+[18:33:21] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:21] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1162 ms
+[18:33:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:mars
+[18:33:21] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:21] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:22] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:22] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:22] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1313 ms
+[18:33:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:saturn
+[18:33:22] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:23] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:23] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:23] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：2%
+[18:33:23] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1342 ms
+[18:33:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:venus
+[18:33:24] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:24] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:24] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:25] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:25] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:25] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：28%
+[18:33:25] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1743 ms
+[18:33:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:metis_orbit
+[18:33:26] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:26] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:26] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:26] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:26] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1321 ms
+[18:33:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:moon_orbit
+[18:33:27] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:27] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:27] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:27] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：55%
+[18:33:28] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:28] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1135 ms
+[18:33:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[18:33:28] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:28] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:29] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:29] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:29] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：39%
+[18:33:29] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1702 ms
+[18:33:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:adrastea_orbit
+[18:33:30] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:30] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:30] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:30] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:31] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1278 ms
+[18:33:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[18:33:31] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:31] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:31] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:32] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：1%
+[18:33:32] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:32] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1324 ms
+[18:33:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:neptune
+[18:33:32] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:32] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:33] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:33] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:33] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1399 ms
+[18:33:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:mars_orbit
+[18:33:34] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:34] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:34] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:34] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：7%
+[18:33:35] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1224 ms
+[18:33:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:phobos_orbit
+[18:33:35] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:35] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:35] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:36] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：52%
+[18:33:36] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1150 ms
+[18:33:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:saturn_orbit
+[18:33:36] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:36] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:36] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:37] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:37] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:37] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1301 ms
+[18:33:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:thebe
+[18:33:37] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:37] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:38] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:38] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:38] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1456 ms
+[18:33:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:thebe_orbit
+[18:33:39] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:39] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:39] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:39] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:40] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:40] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：13%
+[18:33:40] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1766 ms
+[18:33:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:mercury
+[18:33:41] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:41] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:41] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:41] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:42] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：10%
+[18:33:42] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:42] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2000 ms
+[18:33:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:amalthea
+[18:33:42] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:43] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:43] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:43] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:44] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1441 ms
+[18:33:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:mercury_orbit
+[18:33:44] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:44] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:44] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:45] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：29%
+[18:33:45] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:45] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1219 ms
+[18:33:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension adastraextra:metis
+[18:33:45] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:45] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:46] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:46] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:46] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1421 ms
+[18:33:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension ad_astra:glacio
+[18:33:47] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:47] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:47] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:47] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: 准备生成区域中：0%
+[18:33:48] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:48] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1462 ms
+[18:33:48] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] 小小墨正在连接 PlaceholderAPI v2.11.3 插件
+[18:33:48] [Server thread/INFO] [mixin]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatSessionUpdatePacket
+[18:33:48] [Server thread/INFO] [mixin]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatPacket
+[18:33:48] [Server thread/INFO] [mixin]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatCommandPacket
+[18:33:48] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Fetching available expansion information...
+[18:33:48] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered expansion: mohist [1.20.1]
+[18:33:48] [Server thread/INFO] [com.mohistmc.MohistMC]: Hook PlaceholderAPI!
+[18:33:48] [Server thread/INFO] [enderlava.tpj.Tpj]: [Tpj] 小小墨正在连接 Tpj v1.0 插件
+[18:33:49] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] 小小墨正在连接 Mohist v1.20.1 插件
+[18:33:49] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[18:33:49] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[18:33:49] [Server thread/INFO] [Console]: 0 placeholder hook(s) registered!
+[18:33:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mohist 启动成功啦！╰(*°▽°*)╯，总耗时共 60.445s ，您可以使用 /help 命令查看服务器帮助！
+[18:33:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 小小墨提醒您: Mohist 核心已装载完毕，有任何问题可以加官方群 [158638] 进行反馈
+[18:33:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting remote control listener
+[18:33:49] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread]: Thread RCON Listener started
+[18:33:49] [Server thread/INFO] [net.minecraft.server.rcon.thread.RconThread]: RCON running on 0.0.0.0:25575
+[18:33:49] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler luckperms:permission_handler
+[18:33:49] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[luckperms:permission_handler] to bukkit[mohist:permission]
+[18:33:49] [Server thread/INFO] [Discord Integration]: Started
+[18:33:49] [DiscordIntegration-Core WorkerThread/ERROR] [Discord Integration]: java.lang.NullPointerException: Cannot invoke "net.dv8tion.jda.api.JDA.getSelfUser()" because the return value of "de.erdbeerbaerlp.dcintegration.common.DiscordIntegration.getJDA()" is null
+[18:33:49] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/minecraft:overworld 中的区块
+[18:33:50] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:51] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:adrastea 中的区块
+[18:33:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:amalthea_orbit 中的区块
+[18:33:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:jupiter_orbit 中的区块
+[18:33:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:deimos_orbit 中的区块
+[18:33:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:uranus 中的区块
+[18:33:52] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:moon 中的区块
+[18:33:53] [Server thread/INFO] []: Finalizing energy item registration
+[18:33:53] [Server thread/INFO] []: Finalizing fluid item registration
+[18:33:53] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/twilightforest:twilight_forest 中的区块
+[18:33:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:earth_orbit 中的区块
+[18:33:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:neptune_orbit 中的区块
+[18:33:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:phobos 中的区块
+[18:33:54] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:glacio_orbit 中的区块
+[18:33:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:jupiter 中的区块
+[18:33:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:venus_orbit 中的区块
+[18:33:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:deimos 中的区块
+[18:33:55] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:uranus_orbit 中的区块
+[18:33:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:mars 中的区块
+[18:33:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:saturn 中的区块
+[18:33:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:venus 中的区块
+[18:33:56] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:metis_orbit 中的区块
+[18:33:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:moon_orbit 中的区块
+[18:33:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/minecraft:the_nether 中的区块
+[18:33:57] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:adrastea_orbit 中的区块
+[18:33:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/minecraft:the_end 中的区块
+[18:33:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:neptune 中的区块
+[18:33:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:mars_orbit 中的区块
+[18:33:58] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:phobos_orbit 中的区块
+[18:33:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:saturn_orbit 中的区块
+[18:33:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:thebe 中的区块
+[18:33:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:thebe_orbit 中的区块
+[18:33:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:mercury 中的区块
+[18:33:59] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:33:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:amalthea 中的区块
+[18:34:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:mercury_orbit 中的区块
+[18:34:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:metis 中的区块
+[18:34:00] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:34:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:glacio 中的区块
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (adrastea): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (amalthea_orbit): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (jupiter_orbit): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (deimos_orbit): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (uranus): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (neptune_orbit): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (phobos): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (jupiter): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (deimos): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (uranus_orbit): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (saturn): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (metis_orbit): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (adrastea_orbit): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (neptune): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (phobos_orbit): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (saturn_orbit): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (thebe): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (thebe_orbit): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (amalthea): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (metis): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:34:01] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading...
+[18:34:01] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[18:34:01] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading resources...
+[18:34:02] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.6) is available at:
+[18:34:02] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[18:34:03] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading textures...
+[18:34:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Enderlava1234加入了游戏
+[18:34:18] [Server thread/INFO] [Jade]: Syncing config to Enderlava1234 (1e941bfc-fc5f-48b8-bdc3-232649ed032b)
+[18:34:18] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Enderlava1234[/[::1]:57184] logged in with entity id 426 at ([world]-438.49708477407694, 122.75001269551787, -3233.8995372708887)
+[18:34:25] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Baking resources...
+[18:34:25] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Resources loaded.
+[18:34:25] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world 'cdab8ed6-333b-4c3a-8412-0dd7654b9d99' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\amalthea)...
+[18:34:25] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Initializing Storage: 'file' (Type: FILE)
+[18:34:25] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 2'...
+[18:34:25] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world 'd4b13090-59c6-4c6d-bb91-7e0d0a57570b' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\uranus)...
+[18:34:25] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 4'...
+[18:34:26] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '4d1c9b60-3884-496f-8e39-8a538b0eccbc' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\jupiter)...
+[18:34:26] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 3'...
+[18:34:26] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world 'ac6e6e39-4718-4039-80e4-dd718f300999' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\metis_orbit)...
+[18:34:26] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 18'...
+[18:34:26] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '2de375ca-b9d4-44e3-ad19-21c4608ebfb9' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\jupiter_orbit)...
+[18:34:26] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 6'...
+[18:34:26] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '98fcedfd-5022-4dbb-a661-2565e8472d7d' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\deimos_orbit)...
+[18:34:26] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 19'...
+[18:34:26] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '85871cbc-89e3-4d57-822d-163f318dc254' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\twilightforest\twilight_forest)...
+[18:34:26] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 5'...
+[18:34:26] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '94944758-55a8-47b2-9c82-e410e7436036' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\phobos)...
+[18:34:26] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 8'...
+[18:34:26] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world 'e2627006-52f5-4604-9df4-de0068def366' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\neptune)...
+[18:34:26] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 7'...
+[18:34:26] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world 'f0fa6559-7c8e-41e5-bd87-efb3f229c0a2' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\ad_astra\mercury)...
+[18:34:26] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 14'...
+[18:34:26] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '78967c56-3be8-4505-b7f2-5b328eddda55' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\ad_astra\earth_orbit)...
+[18:34:26] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 15'...
+[18:34:27] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world 'c1c6a2a0-992b-4261-9ba1-020dab26af59' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\saturn_orbit)...
+[18:34:27] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 9'...
+[18:34:27] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '95ff4a89-b36d-4a81-a37d-c167291adf62' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\phobos_orbit)...
+[18:34:27] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 16'...
+[18:34:27] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world 'cc3033a2-9151-4508-8a16-3f8f20df7433' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\adrastea_orbit)...
+[18:34:27] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 17'...
+[18:34:27] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '1d09778e-437c-4d52-9456-3b8a243093b7' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\thebe_orbit)...
+[18:34:27] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 10'...
+[18:34:27] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world 'b3c4a624-5cb2-4165-856a-091ef4d492ad' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\adrastea)...
+[18:34:27] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 32'...
+[18:34:27] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '81f18c55-6184-4a41-b459-dc0db6553791' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\neptune_orbit)...
+[18:34:27] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 11'...
+[18:34:27] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world 'bfeabae9-cbd9-4c30-81eb-73c9c0331a28' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\ad_astra\glacio)...
+[18:34:27] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 33'...
+[18:34:27] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world 'cf270e9e-1d34-4fe5-94ad-33beaee01850' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\amalthea_orbit)...
+[18:34:27] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 12'...
+[18:34:28] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world 'aec802ff-4ed1-4bef-b6c6-7264b34f4658' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\ad_astra\mars_orbit)...
+[18:34:28] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 13'...
+[18:34:28] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '6df16aa9-a638-4920-9858-4a3419898883' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\saturn)...
+[18:34:28] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 20'...
+[18:34:28] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world 'c34b25f9-284d-47a4-9695-4a5f1e726391' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\DIM1)...
+[18:34:28] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'End'...
+[18:34:28] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '101628a5-8620-4288-a723-40534c130e4f' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\DIM-1)...
+[18:34:28] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Nether'...
+[18:34:28] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world 'd11d449e-8041-4619-aa18-d5045d616a40' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\ad_astra\glacio_orbit)...
+[18:34:28] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 29'...
+[18:34:28] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world 'bc8551fe-25cb-4025-b0bb-81725ebcd2e5' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\ad_astra\mars)...
+[18:34:28] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 25'...
+[18:34:28] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '431b837f-47c9-467e-b2aa-129ab89a8d0f' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\ad_astra\mercury_orbit)...
+[18:34:28] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 26'...
+[18:34:28] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world 'f2986e78-711d-4915-b7ee-ffe683769978' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\ad_astra\venus_orbit)...
+[18:34:29] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 27'...
+[18:34:29] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '4552397f-ddf0-41dc-b7fe-e16966e2d3f1' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world)...
+[18:34:29] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld'...
+[18:34:29] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '5d1dc9fa-926f-4c15-a6b2-f7d8b318262f' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\deimos)...
+[18:34:29] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 28'...
+[18:34:29] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '2c6c23a9-ef57-4c5e-9aab-b8a12ea9e877' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\ad_astra\venus)...
+[18:34:29] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 21'...
+[18:34:29] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '65e33deb-ccae-46f1-8c7c-b0f939bbc042' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\ad_astra\moon)...
+[18:34:29] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 22'...
+[18:34:29] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '0f859cc7-be9d-45e5-8470-cc791f906cbf' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\metis)...
+[18:34:29] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 23'...
+[18:34:29] [Server thread/INFO] [coroutil]: CoroUtil detected Serene Seasons Installed for use
+[18:34:29] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '9e356e3e-cb8d-4581-84e7-fdb1f042608e' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\thebe)...
+[18:34:29] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 24'...
+[18:34:30] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '557dbf85-67b6-41d1-b0d9-e58340f453b4' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\adastraextra\uranus_orbit)...
+[18:34:30] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 30'...
+[18:34:30] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading world '15352867-b04e-4fdc-95aa-d44272295b0f' (C:\Users\26973\OneDrive - Enderlava\Desktop\server-new\server\world\dimensions\ad_astra\moon_orbit)...
+[18:34:30] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loading map 'Overworld 31'...
+[18:34:30] [BlueMap-Plugin-Loading/INFO] [BlueMap]: WebServer bound to all network interfaces on port 8100
+[18:34:30] [Thread-51/INFO] [BlueMap]: WebServer started.
+[18:34:30] [BlueMap-Plugin-Loading/INFO] [BlueMap]: Loaded!
+[18:34:49] [EntityClear - Item-1/INFO] [Console]: [Server] Cleaned up 10 drop item
+[18:35:31] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Enderlava1234 issued server command: /weather2 summon snowstorm_try
+[18:35:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Enderlava1234: Summoned snowstorm]
+[18:37:07] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Enderlava1234 issued server command: /tp ~ ~12 ~
+[18:37:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Enderlava1234: 已将Enderlava1234传送到-375.300000, 121.000000, -3214.700000]
+[18:41:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Enderlava1234被僵尸杀死了
+[18:41:09] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Enderlava1234 issued server command: /tp @s -421 121.5 -3227
+[18:41:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Enderlava1234: 已将Enderlava1234传送到-420.500000, 121.500000, -3226.500000]
+[18:41:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Enderlava1234被僵尸杀死了
+[18:41:29] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Enderlava1234 issued server command: /tp @s -426 120.5 -3223
+[18:41:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Enderlava1234: 已将Enderlava1234传送到-425.500000, 120.500000, -3222.500000]
+[18:41:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Enderlava1234被骷髅射杀
+[18:41:39] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Enderlava1234 issued server command: /tp @s -428 120.5 -3222
+[18:41:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Enderlava1234: 已将Enderlava1234传送到-427.500000, 120.500000, -3221.500000]
+[18:41:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Enderlava1234被骷髅射杀
+[18:42:04] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: com.mojang.authlib.GameProfile@72e1758[id=d1cfcb58-cf69-46a7-bc6c-8e9098e50717,name=StarterLava,properties={textures=[com.mojang.authlib.properties.Property@34db3119]},legacy=false] (/192.168.3.6:57268) lost connection: 连接中断
+[18:42:05] [Server thread/ERROR] [VS2 Get Entities Mixin]: java.lang.Exception: Collision box is too big! AABB[-2.8596214650000006E7, 122.22824665861616, -3236.236052172488] -> [-436.1479651476757, 124.30000001192093, 1.2290062650000006E7] returning empty list! this might break things
+[18:42:10] [Server thread/ERROR] [VS2 Get Entities Mixin]: java.lang.Exception: Collision box is too big! AABB[-2.8596214650000006E7, 124.0, -3237.5813844911754] -> [-437.71621106565, 139.5644993627768, 1.2290062650000006E7] returning empty list! this might break things
+[18:42:29] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Enderlava1234 issued server command: /weather2 kill_all_storms
+[18:42:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Enderlava1234: Killed all storms]
+[18:42:51] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Enderlava1234 issued server command: /tp ~ ~30 ~
+[18:42:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Enderlava1234: 已将Enderlava1234传送到-440.951143, 151.000000, -3235.606848]
+[18:43:05] [Server thread/ERROR] [VS2 Get Entities Mixin]: java.lang.Exception: Collision box is too big! AABB[-2.8596214650000006E7, 124.0, -3237.8700885195285] -> [-438.01802027225494, 142.12071059991914, 1.2290062650000006E7] returning empty list! this might break things
+[18:43:10] [Server thread/ERROR] [VS2 Get Entities Mixin]: java.lang.Exception: Collision box is too big! AABB[-2.8596214650000006E7, 124.0, -3236.536469327286] -> [-436.58503602817655, 127.26166558302039, 1.2290062650000006E7] returning empty list! this might break things
+[18:43:13] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Enderlava1234 lost connection: 连接中断
+[18:43:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Enderlava1234 left the game
+[18:43:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在关闭服务器
+[18:43:26] [Server thread/INFO] [BlueMap]: BlueMap unloaded!
+[18:43:26] [Server thread/INFO] [luckperms]: Starting shutdown process...
+[18:43:26] [Server thread/INFO] [luckperms]: Closing storage...
+[18:43:26] [Server thread/INFO] [luckperms]: Goodbye!
+[18:43:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[18:43:26] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] 小小墨正在与 Mohist v1.20.1 插件断开连接
+[18:43:26] [Server thread/INFO] [enderlava.tpj.Tpj]: [Tpj] 小小墨正在与 Tpj v1.0 插件断开连接
+[18:43:26] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] 小小墨正在与 PlaceholderAPI v2.11.3 插件断开连接
+[18:43:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[18:43:26] [Physics thread/INFO] []: Running deletePhysicsResources
+[18:43:26] [Physics thread/INFO] [Burger Factory]: Deleting VSPhysicsPipelineStage resources!
+[18:43:26] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ap]: Physics pipeline ending
+[18:43:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[18:43:26] [DefaultDispatcher-worker-25/INFO] [Burger Factory]: VSPhysicsPipelineStage is fully deleted!
+[18:43:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/minecraft:overworld 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:adrastea 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:amalthea_orbit 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:jupiter_orbit 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:deimos_orbit 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:uranus 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:moon 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/twilightforest:twilight_forest 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:earth_orbit 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:neptune_orbit 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:phobos 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:glacio_orbit 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:jupiter 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:venus_orbit 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:deimos 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:uranus_orbit 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:mars 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:saturn 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:venus 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:metis_orbit 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:moon_orbit 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/minecraft:the_nether 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:adrastea_orbit 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/minecraft:the_end 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:neptune 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:mars_orbit 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:phobos_orbit 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:saturn_orbit 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:thebe 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:thebe_orbit 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:mercury 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:amalthea 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:mercury_orbit 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/adastraextra:metis 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ad_astra:glacio 中的区块
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (adrastea): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (amalthea_orbit): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (jupiter_orbit): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (deimos_orbit): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (uranus): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (neptune_orbit): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (phobos): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (jupiter): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (deimos): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (uranus_orbit): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (saturn): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (metis_orbit): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (adrastea_orbit): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (neptune): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (phobos_orbit): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (saturn_orbit): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (thebe): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (thebe_orbit): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (amalthea): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (metis): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
+[18:43:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved

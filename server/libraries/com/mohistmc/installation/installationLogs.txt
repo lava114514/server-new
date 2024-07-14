@@ -1,11 +1,11 @@
 Applying: 
-  Clean:     libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar
-  Output:    /media/jaden/Windows-SSD/Users/26973/Desktop/server-new/server/libraries/net/minecraftforge/forge/1.20.1-47.2.30/forge-1.20.1-47.2.30-server.jar
+  Clean:     libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-srg.jar
+  Output:    C:\Users\26973\OneDrive - Enderlava\Desktop\server\libraries\net\minecraftforge\forge\1.20.1-47.3.5\forge-1.20.1-47.3.5-server.jar
   KeepData:  false
   Unpatched: false
   Pack200:   false
   Legacy:    false
-Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
+Loading patches file: libraries\com\mohistmc\installation\data\server.lzma
   Reading patch com.mojang.blaze3d.pipeline.RenderTarget.binpatch
     Checksum: 0 Exists: false
   Reading patch com.mojang.blaze3d.platform.GlStateManager$BlendState.binpatch
@@ -954,6 +954,8 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: 547a1511 Exists: true
   Reading patch net.minecraft.core.RegistrySynchronization.binpatch
     Checksum: d1358be4 Exists: true
+  Reading patch net.minecraft.core.UUIDUtil.binpatch
+    Checksum: b44adf72 Exists: true
   Reading patch net.minecraft.core.cauldron.CauldronInteraction.binpatch
     Checksum: 3ddf68c2 Exists: true
   Reading patch net.minecraft.core.dispenser.AbstractProjectileDispenseBehavior.binpatch
@@ -1456,8 +1458,6 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: e87d6d46 Exists: true
   Reading patch net.minecraft.server.level.ChunkMap$3.binpatch
     Checksum: 0 Exists: false
-  Reading patch net.minecraft.server.level.ChunkMap$4.binpatch
-    Checksum: 0 Exists: false
   Reading patch net.minecraft.server.level.ChunkMap$CallbackExecutor.binpatch
     Checksum: 0 Exists: false
   Reading patch net.minecraft.server.level.ChunkMap$DistanceManager.binpatch
@@ -1522,8 +1522,6 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: 0 Exists: false
   Reading patch net.minecraft.server.network.ServerGamePacketListenerImpl$4.binpatch
     Checksum: 0 Exists: false
-  Reading patch net.minecraft.server.network.ServerGamePacketListenerImpl$5.binpatch
-    Checksum: 0 Exists: false
   Reading patch net.minecraft.server.network.ServerGamePacketListenerImpl$EntityInteraction.binpatch
     Checksum: f94ec06a Exists: true
   Reading patch net.minecraft.server.network.ServerGamePacketListenerImpl.binpatch
@@ -1534,10 +1532,6 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: e8c36a07 Exists: true
   Reading patch net.minecraft.server.network.ServerLoginPacketListenerImpl$1.binpatch
     Checksum: 2d96a957 Exists: true
-  Reading patch net.minecraft.server.network.ServerLoginPacketListenerImpl$LoginHandler$1.binpatch
-    Checksum: 0 Exists: false
-  Reading patch net.minecraft.server.network.ServerLoginPacketListenerImpl$LoginHandler.binpatch
-    Checksum: 0 Exists: false
   Reading patch net.minecraft.server.network.ServerLoginPacketListenerImpl$State.binpatch
     Checksum: d1ddd19b Exists: true
   Reading patch net.minecraft.server.network.ServerLoginPacketListenerImpl.binpatch
@@ -1648,6 +1642,8 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: cbef48c Exists: true
   Reading patch net.minecraft.tags.TagFile.binpatch
     Checksum: 52624a70 Exists: true
+  Reading patch net.minecraft.tags.TagKey.binpatch
+    Checksum: e7035b28 Exists: true
   Reading patch net.minecraft.tags.TagLoader$1.binpatch
     Checksum: 7c6203d3 Exists: true
   Reading patch net.minecraft.tags.TagLoader$EntryWithSource.binpatch
@@ -1766,10 +1762,6 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: 8554b727 Exists: true
   Reading patch net.minecraft.world.entity.Entity.binpatch
     Checksum: 9f60a4f9 Exists: true
-  Reading patch net.minecraft.world.entity.EntitySelector$MobCanWearArmorEntitySelector.binpatch
-    Checksum: 7d50a98c Exists: true
-  Reading patch net.minecraft.world.entity.EntitySelector.binpatch
-    Checksum: 340e57e5 Exists: true
   Reading patch net.minecraft.world.entity.EntityType$1.binpatch
     Checksum: 59cd4ee5 Exists: true
   Reading patch net.minecraft.world.entity.EntityType$Builder.binpatch
@@ -2658,6 +2650,8 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: 9ce652fa Exists: true
   Reading patch net.minecraft.world.inventory.ContainerLevelAccess$2.binpatch
     Checksum: 5190f8c6 Exists: true
+  Reading patch net.minecraft.world.inventory.ContainerLevelAccess$3.binpatch
+    Checksum: 0 Exists: false
   Reading patch net.minecraft.world.inventory.ContainerLevelAccess.binpatch
     Checksum: 96c65be6 Exists: true
   Reading patch net.minecraft.world.inventory.CraftingMenu.binpatch
@@ -3170,6 +3164,8 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: d53f44e3 Exists: true
   Reading patch net.minecraft.world.level.block.AbstractCauldronBlock.binpatch
     Checksum: 7fe494a9 Exists: true
+  Reading patch net.minecraft.world.level.block.AnvilBlock.binpatch
+    Checksum: 6e5e438a Exists: true
   Reading patch net.minecraft.world.level.block.BambooSaplingBlock.binpatch
     Checksum: 21b772cb Exists: true
   Reading patch net.minecraft.world.level.block.BambooStalkBlock.binpatch
@@ -3222,6 +3218,8 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: 3f4d24a1 Exists: true
   Reading patch net.minecraft.world.level.block.CampfireBlock.binpatch
     Checksum: b7081466 Exists: true
+  Reading patch net.minecraft.world.level.block.CartographyTableBlock.binpatch
+    Checksum: 58c237d7 Exists: true
   Reading patch net.minecraft.world.level.block.CarvedPumpkinBlock.binpatch
     Checksum: 9c8f5175 Exists: true
   Reading patch net.minecraft.world.level.block.CauldronBlock.binpatch
@@ -3276,6 +3274,8 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: 796f8347 Exists: true
   Reading patch net.minecraft.world.level.block.CoralWallFanBlock.binpatch
     Checksum: e3f8db84 Exists: true
+  Reading patch net.minecraft.world.level.block.CraftingTableBlock.binpatch
+    Checksum: 197f1579 Exists: true
   Reading patch net.minecraft.world.level.block.CropBlock.binpatch
     Checksum: dfa29505 Exists: true
   Reading patch net.minecraft.world.level.block.DaylightDetectorBlock.binpatch
@@ -3322,6 +3322,10 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: 978e3be2 Exists: true
   Reading patch net.minecraft.world.level.block.FungusBlock.binpatch
     Checksum: cb1d0187 Exists: true
+  Reading patch net.minecraft.world.level.block.GrindstoneBlock$1.binpatch
+    Checksum: d147df9a Exists: true
+  Reading patch net.minecraft.world.level.block.GrindstoneBlock.binpatch
+    Checksum: 87b68f68 Exists: true
   Reading patch net.minecraft.world.level.block.GrowingPlantHeadBlock.binpatch
     Checksum: e9781fb1 Exists: true
   Reading patch net.minecraft.world.level.block.IceBlock.binpatch
@@ -3344,6 +3348,8 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: f349db9b Exists: true
   Reading patch net.minecraft.world.level.block.LiquidBlock.binpatch
     Checksum: 3db547dd Exists: true
+  Reading patch net.minecraft.world.level.block.LoomBlock.binpatch
+    Checksum: dff070ba Exists: true
   Reading patch net.minecraft.world.level.block.MagmaBlock.binpatch
     Checksum: b70f0f81 Exists: true
   Reading patch net.minecraft.world.level.block.MultifaceSpreader$DefaultSpreaderConfig.binpatch
@@ -3444,6 +3450,8 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: e7f577c3 Exists: true
   Reading patch net.minecraft.world.level.block.SignBlock.binpatch
     Checksum: e14f5cfb Exists: true
+  Reading patch net.minecraft.world.level.block.SmithingTableBlock.binpatch
+    Checksum: 39ef1ab4 Exists: true
   Reading patch net.minecraft.world.level.block.SnowLayerBlock$1.binpatch
     Checksum: 3431daed Exists: true
   Reading patch net.minecraft.world.level.block.SnowLayerBlock.binpatch
@@ -3464,6 +3472,8 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: acc18af Exists: true
   Reading patch net.minecraft.world.level.block.StemGrownBlock.binpatch
     Checksum: 6738017c Exists: true
+  Reading patch net.minecraft.world.level.block.StonecutterBlock.binpatch
+    Checksum: 86757667 Exists: true
   Reading patch net.minecraft.world.level.block.SugarCaneBlock.binpatch
     Checksum: ae1f6bc6 Exists: true
   Reading patch net.minecraft.world.level.block.SweetBerryBushBlock.binpatch
@@ -3586,6 +3596,8 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: 0 Exists: false
   Reading patch net.minecraft.world.level.block.entity.LecternBlockEntity.binpatch
     Checksum: a8ad79b5 Exists: true
+  Reading patch net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.binpatch
+    Checksum: 78927f9c Exists: true
   Reading patch net.minecraft.world.level.block.entity.SculkCatalystBlockEntity$CatalystListener.binpatch
     Checksum: 15e0444a Exists: true
   Reading patch net.minecraft.world.level.block.entity.SculkCatalystBlockEntity.binpatch
@@ -3954,7 +3966,7 @@ Loading patches file: libraries/com/mohistmc/installation/data/server.lzma
     Checksum: aa1a46a4 Exists: true
   Reading patch net.minecraft.world.level.storage.loot.providers.nbt.ContextNbtProvider.binpatch
     Checksum: 92606b05 Exists: true
-Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar
+Processing: libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-srg.jar
   Patching com/mojang/math/Transformation 1/1
   Patching net/minecraft/ChatFormatting 1/1
   Patching net/minecraft/CrashReport 1/1
@@ -4036,6 +4048,7 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/core/RegistrySetBuilder 1/1
   Patching net/minecraft/core/RegistrySynchronization$NetworkedRegistryData 1/1
   Patching net/minecraft/core/RegistrySynchronization 1/1
+  Patching net/minecraft/core/UUIDUtil 1/1
   Patching net/minecraft/core/cauldron/CauldronInteraction 1/1
   Patching net/minecraft/core/dispenser/AbstractProjectileDispenseBehavior 1/1
   Patching net/minecraft/core/dispenser/BoatDispenseItemBehavior 1/1
@@ -4373,6 +4386,7 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/tags/TagEntry$Lookup 1/1
   Patching net/minecraft/tags/TagEntry 1/1
   Patching net/minecraft/tags/TagFile 1/1
+  Patching net/minecraft/tags/TagKey 1/1
   Patching net/minecraft/tags/TagLoader$1 1/1
   Patching net/minecraft/tags/TagLoader$EntryWithSource 1/1
   Patching net/minecraft/tags/TagLoader$SortingEntry 1/1
@@ -4431,8 +4445,6 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/world/entity/Entity$MovementEmission 1/1
   Patching net/minecraft/world/entity/Entity$RemovalReason 1/1
   Patching net/minecraft/world/entity/Entity 1/1
-  Patching net/minecraft/world/entity/EntitySelector$MobCanWearArmorEntitySelector 1/1
-  Patching net/minecraft/world/entity/EntitySelector 1/1
   Patching net/minecraft/world/entity/EntityType$1 1/1
   Patching net/minecraft/world/entity/EntityType$Builder 1/1
   Patching net/minecraft/world/entity/EntityType$EntityFactory 1/1
@@ -5119,6 +5131,7 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/world/level/biome/MobSpawnSettings 1/1
   Patching net/minecraft/world/level/block/AbstractCandleBlock 1/1
   Patching net/minecraft/world/level/block/AbstractCauldronBlock 1/1
+  Patching net/minecraft/world/level/block/AnvilBlock 1/1
   Patching net/minecraft/world/level/block/BambooSaplingBlock 1/1
   Patching net/minecraft/world/level/block/BambooStalkBlock 1/1
   Patching net/minecraft/world/level/block/BaseFireBlock 1/1
@@ -5145,6 +5158,7 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/world/level/block/CactusBlock 1/1
   Patching net/minecraft/world/level/block/CakeBlock 1/1
   Patching net/minecraft/world/level/block/CampfireBlock 1/1
+  Patching net/minecraft/world/level/block/CartographyTableBlock 1/1
   Patching net/minecraft/world/level/block/CarvedPumpkinBlock 1/1
   Patching net/minecraft/world/level/block/CauldronBlock 1/1
   Patching net/minecraft/world/level/block/CaveVines 1/1
@@ -5171,6 +5185,7 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/world/level/block/CoralFanBlock 1/1
   Patching net/minecraft/world/level/block/CoralPlantBlock 1/1
   Patching net/minecraft/world/level/block/CoralWallFanBlock 1/1
+  Patching net/minecraft/world/level/block/CraftingTableBlock 1/1
   Patching net/minecraft/world/level/block/CropBlock 1/1
   Patching net/minecraft/world/level/block/DaylightDetectorBlock 1/1
   Patching net/minecraft/world/level/block/DeadBushBlock 1/1
@@ -5194,6 +5209,8 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/world/level/block/FlowerBlock 1/1
   Patching net/minecraft/world/level/block/FlowerPotBlock 1/1
   Patching net/minecraft/world/level/block/FungusBlock 1/1
+  Patching net/minecraft/world/level/block/GrindstoneBlock$1 1/1
+  Patching net/minecraft/world/level/block/GrindstoneBlock 1/1
   Patching net/minecraft/world/level/block/GrowingPlantHeadBlock 1/1
   Patching net/minecraft/world/level/block/IceBlock 1/1
   Patching net/minecraft/world/level/block/InfestedBlock 1/1
@@ -5205,6 +5222,7 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/world/level/block/LeverBlock 1/1
   Patching net/minecraft/world/level/block/LightningRodBlock 1/1
   Patching net/minecraft/world/level/block/LiquidBlock 1/1
+  Patching net/minecraft/world/level/block/LoomBlock 1/1
   Patching net/minecraft/world/level/block/MagmaBlock 1/1
   Patching net/minecraft/world/level/block/MultifaceSpreader$DefaultSpreaderConfig 1/1
   Patching net/minecraft/world/level/block/MultifaceSpreader$SpreadConfig 1/1
@@ -5255,6 +5273,7 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/world/level/block/SculkVeinBlock 1/1
   Patching net/minecraft/world/level/block/SeagrassBlock 1/1
   Patching net/minecraft/world/level/block/SignBlock 1/1
+  Patching net/minecraft/world/level/block/SmithingTableBlock 1/1
   Patching net/minecraft/world/level/block/SnowLayerBlock$1 1/1
   Patching net/minecraft/world/level/block/SnowLayerBlock 1/1
   Patching net/minecraft/world/level/block/SoundType 1/1
@@ -5265,6 +5284,7 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/world/level/block/StairBlock 1/1
   Patching net/minecraft/world/level/block/StemBlock 1/1
   Patching net/minecraft/world/level/block/StemGrownBlock 1/1
+  Patching net/minecraft/world/level/block/StonecutterBlock 1/1
   Patching net/minecraft/world/level/block/SugarCaneBlock 1/1
   Patching net/minecraft/world/level/block/SweetBerryBushBlock 1/1
   Patching net/minecraft/world/level/block/TallGrassBlock 1/1
@@ -5323,6 +5343,7 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/world/level/block/entity/LecternBlockEntity$1 1/1
   Patching net/minecraft/world/level/block/entity/LecternBlockEntity$2 1/1
   Patching net/minecraft/world/level/block/entity/LecternBlockEntity 1/1
+  Patching net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity 1/1
   Patching net/minecraft/world/level/block/entity/SculkCatalystBlockEntity$CatalystListener 1/1
   Patching net/minecraft/world/level/block/entity/SculkCatalystBlockEntity 1/1
   Patching net/minecraft/world/level/block/entity/ShulkerBoxBlockEntity$1 1/1
@@ -5510,7 +5531,6 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/world/item/crafting/RecipeType$2 1/1
   Patching net/minecraft/server/network/ServerGamePacketListenerImpl$3 1/1
   Patching net/minecraft/server/network/ServerGamePacketListenerImpl$4 1/1
-  Patching net/minecraft/server/network/ServerGamePacketListenerImpl$5 1/1
   Patching net/minecraft/client/sounds/SoundEngine$DeviceCheckState 1/1
   Patching net/minecraft/client/renderer/texture/Stitcher$SpriteLoader 1/1
   Patching com/mojang/blaze3d/platform/GlStateManager$PolygonOffsetState 1/1
@@ -5580,7 +5600,6 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/client/particle/FireworkParticles$FlashProvider 1/1
   Patching net/minecraft/client/renderer/block/model/ItemTransforms$Deserializer 1/1
   Patching net/minecraft/client/renderer/ShaderInstance$1 1/1
-  Patching net/minecraft/server/network/ServerLoginPacketListenerImpl$LoginHandler 1/1
   Patching net/minecraft/client/renderer/blockentity/BlockEntityRenderers 1/1
   Patching net/minecraft/client/resources/model/SimpleBakedModel$Builder 1/1
   Patching net/minecraft/client/renderer/culling/Frustum 1/1
@@ -5717,7 +5736,6 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/client/renderer/GameRenderer 1/1
   Patching net/minecraft/client/particle/FireworkParticles$SparkParticle 1/1
   Patching net/minecraft/server/level/ChunkMap$3 1/1
-  Patching net/minecraft/server/level/ChunkMap$4 1/1
   Patching net/minecraft/server/MinecraftServer$RollingAverage 1/1
   Patching net/minecraft/client/gui/screens/inventory/MerchantScreen 1/1
   Patching net/minecraft/client/renderer/block/model/BlockElement$1 1/1
@@ -5824,6 +5842,7 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/client/particle/EnchantmentTableParticle 1/1
   Patching net/minecraft/client/renderer/entity/player/PlayerRenderer 1/1
   Patching com/mojang/blaze3d/vertex/VertexFormat$IndexType 1/1
+  Patching net/minecraft/world/inventory/ContainerLevelAccess$3 1/1
   Patching com/mojang/realmsclient/gui/screens/RealmsGenericErrorScreen$ErrorMessage 1/1
   Patching net/minecraft/client/renderer/RenderType$CompositeState$CompositeStateBuilder 1/1
   Patching net/minecraft/client/renderer/ItemInHandRenderer$HandRenderSelection 1/1
@@ -5833,7 +5852,6 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/client/gui/Gui$HeartType 1/1
   Patching net/minecraft/client/gui/screens/Screen 1/1
   Patching net/minecraft/client/gui/screens/inventory/HangingSignEditScreen 1/1
-  Patching net/minecraft/server/network/ServerLoginPacketListenerImpl$LoginHandler$1 1/1
   Patching com/mojang/realmsclient/gui/screens/RealmsNotificationsScreen$3 1/1
   Patching com/mojang/realmsclient/gui/screens/RealmsNotificationsScreen$1 1/1
   Patching com/mojang/realmsclient/gui/screens/RealmsNotificationsScreen$2 1/1
@@ -5844,3 +5862,22 @@ Processing: libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-
   Patching net/minecraft/client/player/RemotePlayer 1/1
   Patching net/minecraft/client/main/Main 1/1
   Patching net/minecraft/client/renderer/chunk/ChunkRenderDispatcher$RenderChunk$ResortTransparencyTask 1/1
+  Patching net/minecraft/world/level/block/ChestBlock$DoubleInventory 1/1
+  Patching net/minecraft/client/renderer/LevelRenderer 1/1
+  Patching net/minecraft/client/gui/screens/controls/KeyBindsList 1/1
+  Patching net/minecraft/client/renderer/DimensionSpecialEffects$OverworldEffects 1/1
+  Patching net/minecraft/client/gui/components/AbstractSelectionList$TrackedList 1/1
+  Patching net/minecraft/client/renderer/SpriteCoordinateExpander 1/1
+  Patching net/minecraft/Util$3 1/1
+  Patching net/minecraft/Util$4 1/1
+  Patching net/minecraft/client/multiplayer/ClientPacketListener 1/1
+  Patching net/minecraft/client/gui/screens/worldselection/PresetEditor 1/1
+  Patching com/mojang/blaze3d/pipeline/RenderTarget 1/1
+  Patching com/mojang/blaze3d/vertex/VertexFormat 1/1
+  Patching net/minecraft/client/gui/screens/worldselection/WorldCreationUiState$SelectedGameMode 1/1
+  Patching net/minecraft/client/sounds/SoundEngine 1/1
+  Patching net/minecraft/client/particle/FireworkParticles$1 1/1
+  Patching com/mojang/blaze3d/platform/GlStateManager$DepthState 1/1
+  Patching net/minecraft/client/renderer/texture/TextureAtlas 1/1
+  Patching net/minecraft/client/particle/VibrationSignalParticle 1/1
+  Patching net/minecraft/client/gui/Font$DisplayMode 1/1

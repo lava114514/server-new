@@ -12,9 +12,29 @@
   location:
     ==: org.bukkit.Location
     world: world
-    x: -235.31005975089988
-    y: 75.0
-    z: -98.01004419219548
-    pitch: 12.3
-    yaw: 1.2000003
-  type: DEATH
+    x: -437.5415052101016
+    y: 122.00000930218563
+    z: -3234.9278783407062
+    pitch: 39.149975
+    yaw: 71.5601
+  type: TELEPORT
+d1cfcb58-cf69-46a7-bc6c-8e9098e50717:
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -437.35999155789614
+    y: 121.0
+    z: -3233.272826105356
+    pitch: 56.69999
+    yaw: -169.35718
+  type: TELEPORT
+82193150-26e9-4512-a30e-0679b6c16c3b:
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -9.5
+    y: 141.02160610198973
+    z: 8.5
+    pitch: 0.0
+    yaw: 0.0
+  type: TELEPORT

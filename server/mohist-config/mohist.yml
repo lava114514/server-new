@@ -11,6 +11,10 @@
 # Forums: https://mohistmc.com/
 # Forums (CN): https://mohistmc.cn/
 
+permissions:
+  debug:
+    console: false
+    player: false
 anvilfix:
   maximumrepaircost: 40
   enchantment_fix: false
@@ -31,10 +35,10 @@ threadpriority:
 entity:
   clear:
     item:
-      enable: false
+      enable: true
       whitelist: []
       msg: '[Server] Cleaned up %size% drop item'
-      time: 1800
+      time: 18000
     monster:
       enable: false
       whitelist: []
@@ -58,6 +62,7 @@ settings:
   messages:
     ping-command-output: §2%s's ping is %sms
 events:
+  explosion: false
   fire_tick: false
 forge:
   bukkitpermissionshandler: true
@@ -69,12 +74,14 @@ velocity:
 recipe:
   warn: false
 tpa:
+  permissions: true
   enable: false
 back:
-  enable: false
+  permissions: true
+  enable: true
 mohist:
   show_logo: true
-  check_update: true
+  check_update: false
   lang: zh_CN
   libraries:
     check: true
@@ -85,7 +92,7 @@ config-version: 1
 keepinventory:
   global:
     enable: false
-    inventory: true
+    inventory: false
     exp: true
   permission:
     inventory: mohist.keepinventory.inventory

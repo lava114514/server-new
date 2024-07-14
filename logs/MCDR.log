@@ -1,31 +1,39 @@
-[MCDR] [2024-05-04 11:40:33] [MainThread/INFO]: MCDReforged正于Python 3.10.12环境中运行
-[MCDR] [2024-05-04 11:40:33] [TaskExecutor/INFO]: 刷新所有插件中
-[MCDR] [2024-05-04 11:40:33] [TaskExecutor/INFO]: 插件 daycount_nbt@2.2.1 已加载
-[MCDR] [2024-05-04 11:40:33] [TaskExecutor/INFO]: 插件 here@1.2.3 已加载
-[MCDR] [2024-05-04 11:40:33] [TaskExecutor/INFO]: 插件 joinmotd_reforged@1.0.0 已加载
-[MCDR] [2024-05-04 11:40:33] [TaskExecutor/INFO]: 插件 minecraft_command_register@1.7.3 已加载
-[MCDR] [2024-05-04 11:40:33] [TaskExecutor/INFO]: 插件 mirror_server_reforged@1.0.7 已加载
-[MCDR] [2024-05-04 11:40:33] [TaskExecutor/INFO] [daycount_nbt]: 配置文件已加载
-[MCDR] [2024-05-04 11:40:33] [TaskExecutor/INFO] [here]: 配置文件已加载
-[MCDR] [2024-05-04 11:40:33] [TaskExecutor/INFO] [joinmotd_reforged]: 配置文件已加载
-[MCDR] [2024-05-04 11:40:33] [TaskExecutor/INFO] [joinmotd_reforged]: ==========================================================
-[MCDR] [2024-05-04 11:40:33] [TaskExecutor/INFO] [joinmotd_reforged]: joinMOTD-Reforged 已加载！
-[MCDR] [2024-05-04 11:40:33] [TaskExecutor/INFO] [joinmotd_reforged]: 版本：1.0.0 (B93F2EC)（构建于2023年12月17日）
-[MCDR] [2024-05-04 11:40:33] [TaskExecutor/INFO] [joinmotd_reforged]: ==========================================================
-[MCDR] [2024-05-04 11:40:33] [TaskExecutor/INFO]: 共加载: §75§r 个插件; 已加载插件数: §77§r
-[MCDR] [2024-05-04 11:40:33] [MainThread/INFO]: 正在启动服务端，启动参数为 "java -jar mohist-server.jar"
-[MCDR] [2024-05-04 11:40:33] [MainThread/INFO]: 服务端正在以 PID 24935 运行中
-[MCDR] [2024-05-04 11:42:12] [TaskExecutor/INFO]: rcon 已连接
-[MCDR] [2024-05-04 11:47:51] [TaskExecutor/INFO]: rcon 已断开连接
-[MCDR] [2024-05-04 11:48:17] [ConsoleHandler/ERROR]: User interruption caught in ConsoleHandler: KeyboardInterrupt 
-[MCDR] [2024-05-04 11:48:17] [ConsoleHandler/INFO]: 正在终止 MCDR。再次执行以强制杀死服务端
-[MCDR] [2024-05-04 11:48:17] [ConsoleHandler/ERROR]: User interruption caught in ConsoleHandler: KeyboardInterrupt 
-[MCDR] [2024-05-04 11:48:17] [ConsoleHandler/INFO]: 正在终止 MCDR 并杀死服务端
-[MCDR] [2024-05-04 11:48:17] [ConsoleHandler/INFO]: 正在杀死服务端进程组
-[MCDR] [2024-05-04 11:48:18] [ConsoleHandler/INFO]: 进程 java (pid 24938) 已杀死
-[MCDR] [2024-05-04 11:48:18] [ConsoleHandler/INFO]: 进程 sh (pid 24935) 已杀死
-[MCDR] [2024-05-04 11:48:18] [MainThread/INFO]: 服务端进程返回代码: -9
-[MCDR] [2024-05-04 11:48:18] [MainThread/INFO]: 服务端已被用户终止
-[MCDR] [2024-05-04 11:48:18] [MainThread/INFO]: 正在关闭 MCDR
-[MCDR] [2024-05-04 11:48:18] [MainThread/INFO]: 正在关闭高级控制台
-[MCDR] [2024-05-04 11:48:18] [MainThread/INFO]: bye
+[MCDR] [2024-07-14 18:31:50.427] [MainThread/INFO] [logger.py:295(_log)]: MCDReforged 2.13.0 正在启动
+[MCDR] [2024-07-14 18:31:50.432] [MainThread/INFO] [logger.py:295(_log)]: MCDReforged 正于 Python 3.12.4 环境中运行
+[MCDR] [2024-07-14 18:31:50.433] [TaskExecutor/INFO] [logger.py:295(_log)]: 刷新所有插件中
+[MCDR] [2024-07-14 18:31:50.435] [TaskExecutor/INFO] [logger.py:295(_log)]: 插件 daycount_nbt@2.2.1 已加载
+[MCDR] [2024-07-14 18:31:50.435] [TaskExecutor/INFO] [logger.py:295(_log)]: 插件 here@1.2.3 已加载
+[MCDR] [2024-07-14 18:31:50.562] [TaskExecutor/INFO] [logger.py:295(_log)]: 插件 joinmotd_reforged@1.0.0 已加载
+[MCDR] [2024-07-14 18:31:50.563] [TaskExecutor/INFO] [logger.py:295(_log)]: 插件 minecraft_command_register@1.7.3 已加载
+[MCDR] [2024-07-14 18:31:50.564] [TaskExecutor/INFO] [logger.py:295(_log)]: 插件 mirror_server_reforged@1.0.7 已加载
+[MCDR] [2024-07-14 18:31:50.564] [TaskExecutor/ERROR] [logger.py:295(_log)]: 卸载插件 minecraft_command_register@1.7.3，原因: 依赖项 mcdreforged@2.13.0 不满足版本约束 2.12.3
+[MCDR] [2024-07-14 18:31:50.577] [TaskExecutor/INFO] [logger.py:295(_log)]: 插件 minecraft_command_register@1.7.3 已卸载
+[MCDR] [2024-07-14 18:31:50.789] [TaskExecutor/INFO] [logger.py:295(_log)] [daycount_nbt]: 配置文件已加载
+[MCDR] [2024-07-14 18:31:50.789] [TaskExecutor/INFO] [logger.py:295(_log)] [here]: 配置文件已加载
+[MCDR] [2024-07-14 18:31:50.790] [TaskExecutor/INFO] [logger.py:295(_log)] [joinmotd_reforged]: 配置文件已加载
+[MCDR] [2024-07-14 18:31:50.790] [TaskExecutor/INFO] [logger.py:295(_log)] [joinmotd_reforged]: ==========================================================
+[MCDR] [2024-07-14 18:31:50.790] [TaskExecutor/INFO] [logger.py:295(_log)] [joinmotd_reforged]: joinMOTD-Reforged 已加载！
+[MCDR] [2024-07-14 18:31:50.791] [TaskExecutor/INFO] [logger.py:295(_log)] [joinmotd_reforged]: 版本：1.0.0 (B93F2EC)（构建于2023年12月17日）
+[MCDR] [2024-07-14 18:31:50.791] [TaskExecutor/INFO] [logger.py:295(_log)] [joinmotd_reforged]: ==========================================================
+[MCDR] [2024-07-14 18:31:50.792] [TaskExecutor/INFO] [logger.py:295(_log)]: 共加载: §74§r 个插件; 依赖检查失败: §71§r 个插件; 已加载插件数: §76§r
+[MCDR] [2024-07-14 18:31:50.795] [MainThread/INFO] [logger.py:295(_log)]: 正在启动服务端，启动参数为 'java -jar mohist-server.jar'
+[MCDR] [2024-07-14 18:31:50.806] [MainThread/INFO] [logger.py:295(_log)]: 服务端正在以 PID 14356 运行中
+[MCDR] [2024-07-14 18:32:51.4] [HandlerDetector/WARNING] [logger.py:295(_log)]: 似乎你并没有使用正确的服务端解析处理器
+[MCDR] [2024-07-14 18:32:51.5] [HandlerDetector/WARNING] [logger.py:295(_log)]: 目前正在使用的解析处理器: bukkit14_handler, 成功率 0.0% (0/222)
+[MCDR] [2024-07-14 18:32:51.5] [HandlerDetector/WARNING] [logger.py:295(_log)]: 可能更为准确的解析处理器: bukkit_handler, 成功率 77.93% (173/222)
+[MCDR] [2024-07-14 18:32:51.5] [HandlerDetector/WARNING] [logger.py:295(_log)]: 可能更为准确的解析处理器: arclight_handler, 成功率 77.93% (173/222)
+[MCDR] [2024-07-14 18:32:51.6] [HandlerDetector/WARNING] [logger.py:295(_log)]: 可能更为准确的解析处理器: waterfall_handler, 成功率 77.93% (173/222)
+[MCDR] [2024-07-14 18:32:51.6] [HandlerDetector/WARNING] [logger.py:295(_log)]: 可能更为准确的解析处理器: velocity_handler, 成功率 77.93% (173/222)
+[MCDR] [2024-07-14 18:43:59.440] [ConsoleHandler/ERROR] [logger.py:295(_log)]: User interruption caught in ConsoleHandler: KeyboardInterrupt 
+[MCDR] [2024-07-14 18:43:59.440] [ConsoleHandler/INFO] [logger.py:295(_log)]: 正在终止 MCDR。再次执行以强制杀死服务端
+[MCDR] [2024-07-14 18:44:00.133] [ConsoleHandler/ERROR] [logger.py:295(_log)]: User interruption caught in ConsoleHandler: KeyboardInterrupt 
+[MCDR] [2024-07-14 18:44:00.133] [ConsoleHandler/INFO] [logger.py:295(_log)]: 正在终止 MCDR 并杀死服务端
+[MCDR] [2024-07-14 18:44:00.133] [ConsoleHandler/INFO] [logger.py:295(_log)]: 正在杀死服务端进程组
+[MCDR] [2024-07-14 18:44:00.142] [ConsoleHandler/INFO] [logger.py:295(_log)]: 进程 java.exe (pid 3344) 已杀死
+[MCDR] [2024-07-14 18:44:00.144] [ConsoleHandler/INFO] [logger.py:295(_log)]: 进程 java.exe (pid 10656) 已杀死
+[MCDR] [2024-07-14 18:44:00.144] [ConsoleHandler/INFO] [logger.py:295(_log)]: 进程 cmd.exe (pid 14356) 已杀死
+[MCDR] [2024-07-14 18:44:00.148] [MainThread/INFO] [logger.py:295(_log)]: 服务端进程返回代码: 15
+[MCDR] [2024-07-14 18:44:00.149] [MainThread/INFO] [logger.py:295(_log)]: 服务端已被用户终止
+[MCDR] [2024-07-14 18:44:00.149] [MainThread/INFO] [logger.py:295(_log)]: 正在关闭 MCDR
+[MCDR] [2024-07-14 18:44:00.150] [MainThread/INFO] [logger.py:295(_log)]: 正在关闭高级控制台
+[MCDR] [2024-07-14 18:44:00.306] [MainThread/INFO] [logger.py:295(_log)]: bye
